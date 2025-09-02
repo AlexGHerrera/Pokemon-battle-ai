@@ -193,7 +193,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👥 Autores
 
-- **Alex G. Herrera** - *Desarrollo inicial* - [GitHub](https://github.com/alexg-herrera)
+- **Alejandro Guerra Herrera** - *Desarrollo inicial* - [GitHub](https://github.com/AlexGHerrera)
 
 ## 🙏 Agradecimientos
 
@@ -204,9 +204,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 📞 Contacto
 
 Para preguntas o colaboraciones:
-- **Email**: alex.herrera@hackaboss.com
-- **LinkedIn**: [Alex G. Herrera](https://linkedin.com/in/alexg-herrera)
-- **GitHub**: [@alexg-herrera](https://github.com/alexg-herrera)
+- **Email**: alex_gh@live.com
+- **LinkedIn**: [Alejandro Guerra Herrera](https://www.linkedin.com/in/alejandro-guerra-herrera-a86053115/)
+- **GitHub**: [@AlexGHerrera](https://github.com/AlexGHerrera)
 
 ---
 
