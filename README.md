@@ -1,12 +1,13 @@
-# Pokemon Battle AI - Exploratory Data Analysis
+# Pokemon Battle AI - Sistema Completo de IA
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.2%2B-green.svg)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 🎯 Objetivo del Proyecto
 
-Desarrollo de un **modelo de inteligencia artificial capaz de jugar Pokemon de forma autónoma** contra usuarios humanos. Este repositorio contiene el análisis exploratorio de datos (EDA) completo del dataset de batallas Pokemon Showdown, diseñado para extraer insights estratégicos y preparar los datos para el entrenamiento del modelo de IA.
+**Sistema completo de inteligencia artificial para batallas Pokemon** que incluye análisis de datos, entrenamiento de modelos de IA y una interfaz web interactiva donde los usuarios pueden jugar contra la IA. El sistema implementa **aprendizaje continuo**, mejorando constantemente a partir de las interacciones con jugadores humanos.
 
 ## 📊 Dataset
 
@@ -17,117 +18,210 @@ Desarrollo de un **modelo de inteligencia artificial capaz de jugar Pokemon de f
 
 ## 🚀 Características Principales
 
-### ✨ Análisis Completo
-- **Análisis de calidad de datos** con validación de integridad
-- **Patrones estratégicos** que revelan comportamientos ganadores
-- **Análisis del meta** de Pokemon más utilizados y efectivos
-- **Visualizaciones explicativas** para insights del modelo de IA
+### 🧠 Sistema de IA Completo
 
-### ⚡ Optimizaciones de Rendimiento
-- **Muestreo inteligente** para desarrollo rápido (2000 batallas por defecto)
+- **4 Arquitecturas de IA**: Red básica, LSTM, Atención y Ensemble
+- **Entrenamiento automatizado** con métricas y validación
+- **Aprendizaje continuo** desde interacciones de usuarios
+- **Soporte GPU/CPU** configurable
+
+### 🎮 Interfaz Web Interactiva
+
+- **Juego en tiempo real** contra la IA
+- **Interfaz moderna** con Bootstrap y JavaScript
+- **Sistema de sesiones** para múltiples jugadores
+- **Logging automático** de todas las batallas
+
+### 📊 Pipeline de Datos Optimizado
+
+- **Muestreo inteligente** para desarrollo rápido
 - **Conversión a Parquet** para acceso 10-20x más rápido
-- **Procesamiento por chunks** para evitar problemas de memoria
-- **Carga optimizada** con modo desarrollo/producción
+- **Procesamiento por chunks** para datasets grandes
+- **Feature engineering** automatizado para ML
 
-### 📈 Feature Engineering
-- **Métricas de batalla** (duración, eventos, ratios estratégicos)
-- **Información de equipos** (niveles, tipos, estadísticas)
-- **Patrones temporales** (eventos por turno, intensidad de acción)
-- **Features estructuradas** listas para machine learning
+### ⚡ Arquitectura Profesional
 
-## 📁 Estructura del Proyecto
+- **Configuración centralizada** para todo el sistema
+- **Logging estructurado** y monitoreo
+- **Tests automatizados** y CI/CD ready
+- **Documentación completa** y APIs REST
 
-```
+## 🏗️ Arquitectura del Sistema
+
+```text
 Pokemon_battle/
+├── src/
+│   ├── data/                      # Pipeline de datos
+│   │   ├── processors.py          # Procesamiento optimizado
+│   │   ├── loaders/               # Carga de datos
+│   │   └── validators/            # Validación de datos
+│   ├── models/                    # Modelos de IA
+│   │   ├── architectures.py       # 4 tipos de redes neuronales
+│   │   └── pretrained/            # Modelos entrenados
+│   ├── training/                  # Sistema de entrenamiento
+│   │   └── trainer.py             # Entrenador con métricas
+│   ├── web/                       # Interfaz web
+│   │   ├── backend/app.py         # Servidor Flask + API REST
+│   │   └── frontend/              # HTML/CSS/JS moderno
+│   └── utils/                     # Utilidades comunes
+├── config/
+│   └── config.py                  # Configuración centralizada
 ├── data/
-│   ├── battles/                    # Batallas individuales JSON
-│   ├── all_battles.json           # Dataset consolidado
-│   └── battles_sample_*.json      # Muestras para desarrollo
-├── output/                        # Visualizaciones y resultados
-├── EDA_notebook_ready.ipynb       # Notebook principal del EDA
-├── EDA_notebook_ready.py          # Versión Python del notebook
-├── EDA_comprehensive.py           # Script completo de análisis
-└── README.md                      # Este archivo
+│   ├── battles/                   # Batallas JSON
+│   ├── continuous_learning/       # Datos de aprendizaje continuo
+│   └── all_battles.json          # Dataset consolidado
+├── notebooks/                     # Jupyter notebooks (EDA)
+├── tests/                         # Tests automatizados
+├── docs/                          # Documentación
+└── assets/                        # Recursos multimedia
 ```
 
 ## 🛠️ Instalación y Configuración
 
 ### Prerrequisitos
 
-```bash
-Python 3.8+
-```
+- Python 3.8+
+- Git
+- 4GB RAM mínimo (8GB recomendado)
+- GPU opcional (para entrenamiento acelerado)
 
-### Dependencias
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyterlab jupytext
-```
-
-### Instalación Opcional (Parquet)
+### Instalación Completa
 
 ```bash
-pip install pyarrow  # Para formato Parquet optimizado
+# Clonar repositorio
+git clone https://github.com/AlexGHerrera/Pokemon-battle-ai.git
+cd Pokemon-battle-ai
+
+# Crear entorno virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Crear directorios necesarios
+python config/config.py
 ```
 
-## 🚀 Uso Rápido
+### Variables de Entorno (Opcional)
 
-### 1. Modo Desarrollo (Recomendado)
+```bash
+# .env
+USE_GPU=true          # Usar GPU para entrenamiento
+DEBUG=false           # Modo debug del servidor
+DATA_SAMPLE_SIZE=2000 # Tamaño de muestra para desarrollo
+```
+
+## 🚀 Guía de Uso
+
+### 1. Análisis Exploratorio de Datos (EDA)
+
+```bash
+# Ejecutar notebook de EDA
+jupyter lab notebooks/EDA_notebook_ready.ipynb
+
+# O ejecutar script Python
+python notebooks/EDA_notebook_ready.py
+```
+
+### 2. Entrenar Modelo de IA
 
 ```python
-# Carga rápida con muestra de 2000 batallas
-battles = load_battles_optimized(use_sample=True, sample_size=2000)
+from src.training.trainer import PokemonTrainer
+from src.models.architectures import PokemonBattleNet
+from src.data.processors import BattleDataProcessor
+
+# Cargar y procesar datos
+processor = BattleDataProcessor('data/')
+battles = processor.load_battles_optimized(use_sample=True)
+
+# Crear y entrenar modelo
+model = PokemonBattleNet()
+trainer = PokemonTrainer(model)
+train_loader, val_loader = trainer.prepare_data(battles)
+history = trainer.train(train_loader, val_loader, num_epochs=50)
 ```
 
-### 2. Dataset Completo
+### 3. Lanzar Interfaz Web
+
+```bash
+# Iniciar servidor backend
+cd src/web/backend
+python app.py
+
+# Abrir navegador en: http://localhost:5000
+```
+
+### 4. Jugar Contra la IA
+
+1. Abre http://localhost:5000 en tu navegador
+2. Haz clic en "Nueva Partida"
+3. Elige tus movimientos usando los botones
+4. ¡La IA aprenderá de cada batalla!
+
+## 🔧 Configuración Avanzada
+
+### Personalizar Modelo de IA
 
 ```python
-# Carga completa para análisis final
-battles = load_battles_optimized(use_sample=False)
+# config/config.py
+MODEL_CONFIG = {
+    "input_size": 512,
+    "hidden_sizes": [256, 128, 64],  # Capas ocultas
+    "num_actions": 10,               # Acciones posibles
+    "dropout_rate": 0.2,             # Regularización
+    "learning_rate": 0.001,          # Tasa de aprendizaje
+    "batch_size": 32,                # Tamaño de lote
+}
 ```
 
-### 3. Formato Optimizado
+### Configurar Aprendizaje Continuo
 
 ```python
-# Conversión una sola vez a Parquet
-convert_to_parquet()
-
-# Carga súper rápida desde Parquet
-df_battles = load_parquet_if_exists()
+CONTINUOUS_LEARNING_CONFIG = {
+    "enabled": True,
+    "retrain_threshold": 50,    # Batallas antes de reentrenar
+    "backup_models": True,      # Guardar versiones anteriores
+    "learning_rate_decay": 0.95 # Decaimiento de tasa de aprendizaje
+}
 ```
 
-## 📓 Ejecutar el Análisis
+### Optimización de Rendimiento
 
-### Opción 1: Jupyter Notebook (Recomendado)
-
-```bash
-jupyter lab EDA_notebook_ready.ipynb
+```python
+# Para datasets grandes
+DATA_CONFIG = {
+    "sample_size_dev": 2000,    # Desarrollo rápido
+    "sample_size_prod": 10000,  # Producción
+    "use_parquet": True,        # Formato optimizado
+    "chunk_size": 1000          # Procesamiento por chunks
+}
 ```
 
-### Opción 2: Script Python
+## 📊 Componentes del Sistema
 
-```bash
-python EDA_comprehensive.py
-```
+### Modelos de IA Disponibles
 
-### Opción 3: Conversión con Jupytext
+- **PokemonBattleNet**: Red neuronal feedforward básica
+- **RecurrentBattleNet**: LSTM para capturar secuencias de batalla
+- **AttentionBattleNet**: Mecanismo de atención para decisiones críticas
+- **EnsembleBattleNet**: Combinación de múltiples modelos
 
-```bash
-# Convertir .py a .ipynb
-jupytext --to ipynb EDA_notebook_ready.py
+### API REST Endpoints
 
-# Sincronizar cambios
-jupytext --sync EDA_notebook_ready.ipynb
-```
+- `POST /api/game/start` - Iniciar nueva partida
+- `POST /api/game/{id}/move` - Enviar movimiento
+- `POST /api/game/{id}/end` - Terminar partida
+- `GET /api/stats` - Estadísticas del sistema
+- `GET /api/health` - Estado del servidor
 
-## 📊 Resultados del Análisis
+### Archivos Generados
 
-El EDA genera automáticamente:
-
-- **`battle_patterns_analysis.png`** - Patrones de duración y eventos
-- **`pokemon_analysis.png`** - Análisis de uso de Pokemon
-- **`correlation_matrix.png`** - Correlaciones entre features
-- **`battle_features.csv`** - Dataset de features para ML
+- **Modelos entrenados**: `src/models/pretrained/`
+- **Datos de aprendizaje**: `data/continuous_learning/`
+- **Logs del sistema**: `logs/pokemon_ai.log`
+- **Visualizaciones EDA**: `notebooks/output/`
 
 ## 🎯 Insights Clave para IA
 
