@@ -134,4 +134,4 @@ temp/
 notebooks/EDA_notebook_ready.py
 
 # Keep sample files but ignore large datasets
-!data/battles_sample_*.json
+# !data/battles_sample_*.json  # Commented out due to file size limit (>100MB)
