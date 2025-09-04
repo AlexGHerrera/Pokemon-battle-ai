@@ -1,13 +1,23 @@
-# Pokemon Battle AI - Sistema Completo de IA
+# 🔥 Pokemon Battle AI - Sistema Completo de IA
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.2%2B-green.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.837-green.svg)](output/)
+
+![Pokemon Battle Analysis](assets/images/battle_patterns_analysis.png)
 
 ## 🎯 Objetivo del Proyecto
 
 **Sistema completo de inteligencia artificial para batallas Pokemon** que incluye análisis de datos, entrenamiento de modelos de IA y una interfaz web interactiva donde los usuarios pueden jugar contra la IA. El sistema implementa **aprendizaje continuo**, mejorando constantemente a partir de las interacciones con jugadores humanos.
+
+### 🏆 **Resultados Actuales del Modelo**
+
+- **ROC-AUC Score**: **0.837** (Excelente capacidad predictiva)
+- **Datos analizados**: 2,000 batallas reales de Pokemon Showdown
+- **Features extraídas**: 56 características estratégicas
+- **Modelo baseline**: Logistic Regression con features escaladas
 
 ## 📊 Dataset
 
@@ -155,7 +165,7 @@ python app.py
 
 ### 4. Jugar Contra la IA
 
-1. Abre http://localhost:5000 en tu navegador
+1. Abre <http://localhost:5000> en tu navegador
 2. Haz clic en "Nueva Partida"
 3. Elige tus movimientos usando los botones
 4. ¡La IA aprenderá de cada batalla!
@@ -225,21 +235,61 @@ DATA_CONFIG = {
 
 ## 🎯 Insights Clave para IA
 
-### Patrones Estratégicos Identificados:
+![Pokemon Usage Analysis](assets/images/pokemon_analysis.png)
+
+### Patrones Estratégicos Identificados
+
 - **Balance de jugadores**: Distribución equilibrada de victorias p1 vs p2
 - **Duración óptima**: Batallas de 15-25 turnos muestran mayor complejidad estratégica
-- **Meta dominante**: Top 15 Pokemon más utilizados representan 60% del uso total
+- **Meta dominante**: Top Pokemon más utilizados (Arceus, Rotom, Oricorio)
 - **Eventos críticos**: Ratio movimientos/switches indica agresividad vs cautela
+- **Tipos dominantes**: Dragon (143 usos), Flying (134 usos), Poison (81 usos)
+- **Mejores winrates**: Rock (51.1%), Dark (51.1%), Ghost (48.8%)
 
-### Features Relevantes para ML:
+![Type Analysis](assets/images/type_analysis.png)
+
+### Features Relevantes para ML
+
 - **Métricas temporales**: `events_per_turn`, `total_turns`
 - **Patrones de acción**: `move_events`, `switch_events`, `damage_events`
 - **Contexto de jugador**: `ladder_rating_pre`, `team_composition`
 - **Estado de batalla**: `weather_conditions`, `side_conditions`
+- **Composición de equipos**: Niveles promedio, HP, diversidad de tipos
+- **Momentum de batalla**: Intensidad por fases (early/mid/late game)
 
-## 🔧 Configuración Avanzada
+## 📊 Análisis Exploratorio de Datos (EDA)
 
-### Personalizar Tamaño de Muestra
+### Distribuciones y Patrones
+
+![Distributions Analysis](assets/images/distributions_analysis.png)
+
+El EDA revela patrones clave en:
+- **Duración de batallas**: Media de 24.5 turnos
+- **Eventos por turno**: Correlación alta (0.981) con duración total
+- **Outliers**: ~3-4% en variables numéricas clave
+
+### Correlaciones de Features
+
+![Correlation Matrix](assets/images/correlation_matrix_filtered.png)
+
+**Top correlaciones con duración de batalla:**
+- `move_events`: 0.981
+- `consecutive_moves`: 0.912  
+- `damage_events`: 0.890
+- `effect_events`: 0.855
+
+### Patrones Temporales
+
+![Temporal Analysis](assets/images/temporal_analysis.png)
+
+**Actividad por día:**
+- Viernes: 303 batallas (pico)
+- Martes: 301 batallas
+- Domingo: 261 batallas (mínimo)
+
+**Horas pico:** 01:00 (100 batallas), 00:00 (90 batallas)
+
+### Configuración Avanzada
 
 ```python
 # Muestra pequeña para pruebas rápidas
@@ -247,13 +297,6 @@ battles = create_sample_dataset(sample_size=500)
 
 # Muestra grande para análisis detallado
 battles = create_sample_dataset(sample_size=5000)
-```
-
-### Optimización de Memoria
-
-```python
-# Procesamiento por chunks para datasets grandes
-chunk_size = 1000  # Ajustar según memoria disponible
 ```
 
 ## 📈 Próximos Pasos
@@ -298,7 +341,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 📞 Contacto
 
 Para preguntas o colaboraciones:
-- **Email**: alex_gh@live.com
+- **Email**: <alex_gh@live.com>
 - **LinkedIn**: [Alejandro Guerra Herrera](https://www.linkedin.com/in/alejandro-guerra-herrera-a86053115/)
 - **GitHub**: [@AlexGHerrera](https://github.com/AlexGHerrera)
 

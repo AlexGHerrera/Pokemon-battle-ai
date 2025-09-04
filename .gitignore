@@ -130,5 +130,8 @@ output/
 *.log
 temp/
 
+# Working files (not for repo)
+notebooks/EDA_notebook_ready.py
+
 # Keep sample files but ignore large datasets
 !data/battles_sample_*.json
