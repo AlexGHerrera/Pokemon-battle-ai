@@ -132,6 +132,7 @@ temp/
 
 # Working files (not for repo)
 notebooks/EDA_notebook_ready.py
+notebooks/ML_Training_Advanced.py
 
 # Keep sample files but ignore large datasets
-# !data/battles_sample_*.json  # Commented out due to file size limit (>100MB)
+data/battles_sample_*.json  # Files exceed GitHub 100MB limit
