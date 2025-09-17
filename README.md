@@ -15,14 +15,14 @@
 
 ## 🎯 La Misión: Superar lo Imposible
 
-**Sistema completo de inteligencia artificial para batallas Pokemon** que combina storytelling épico con ciencia de datos avanzada. No nos conformamos con modelos simples; hemos desplegado un **arsenal completo de algoritmos de última generación** para crear el predictor de batallas Pokemon más sofisticado jamás desarrollado.
+**Sistema completo de inteligencia artificial para batallas Pokemon** con ciencia de datos avanzada. No nos conformamos con modelos simples; hemos desplegado un **arsenal completo de algoritmos de última generación** para crear el predictor de batallas Pokemon más sofisticado jamás desarrollado.
 
 ### 🏆 El Viaje Épico Completado
 
 **Fase 1: El Despertar de los Datos** ✅
 - Análisis exploratorio épico de 14,000+ batallas reales
-- Storytelling narrativo que transforma datos en historias
 - Visualizaciones temáticas Pokemon que revelan patrones ocultos
+- Insights estratégicos profundos extraídos de los datos
 
 **Fase 2: La Alquimia de los Datos** ✅
 - Feature engineering avanzado con 56+ características estratégicas
@@ -87,13 +87,13 @@ Cada batalla es un testimonio de:
 - **Ensemble inteligente** con soft voting democracy
 - **CSI de errores** para análisis forense de predicciones
 
-### 🎭 Storytelling Narrativo Integrado
+### 🎭 Documentación narrativa integrada en todo el proyecto
 
-- **Notebooks épicos** que cuentan historias con datos
+- **Notebooks épicos** con análisis detallado de datos
 - **Metáforas Pokemon** consistentes en toda la documentación
-- **Suspense técnico** que mantiene el engagement
-- **Personificación de algoritmos** como gladiadores únicos
-- **Estructura dramática** con buildup, clímax y resolución
+- **Análisis técnico profundo** con explicaciones claras
+- **Caracterización de algoritmos** como especialistas únicos
+- **Estructura organizada** con progresión lógica de conceptos
 
 ### 🧪 Arquitecturas de IA Neural (PyTorch)
 
@@ -209,10 +209,10 @@ python notebooks/EDA_notebook_ready.py
 ```
 
 **Lo que descubrirás:**
-- Storytelling épico que transforma datos en aventuras
+- Análisis épico que transforma datos en insights accionables
 - Visualizaciones temáticas Pokemon que revelan patrones ocultos
-- Análisis de 14,000+ batallas con narrativa envolvente
-- Insights estratégicos presentados como descubrimientos épicos
+- Análisis de 14,000+ batallas con metodología rigurosa
+- Insights estratégicos presentados de forma clara y comprensible
 
 ### 2. 🚀 El Gran Torneo de Algoritmos (ML Avanzado)
 
@@ -363,7 +363,7 @@ DATA_CONFIG = {
 - **Duración de batallas**: Media de 24.5 turnos (el ritmo perfecto del drama)
 - **Eventos por turno**: Correlación alta (0.981) con duración total
 - **Outliers**: ~3-4% de batallas verdaderamente excepcionales
-- **Storytelling integrado**: Cada gráfico cuenta una historia Pokemon
+- **Análisis integrado**: Cada gráfico revela patrones estratégicos Pokemon
 
 ### 🏆 Los Campeones Revelados
 
