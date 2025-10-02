@@ -38,14 +38,53 @@ MODEL_CONFIG = {
     "device": "cuda" if os.getenv("USE_GPU", "false").lower() == "true" else "cpu"
 }
 
-# Configuración del servidor web
-WEB_CONFIG = {
-    "host": "0.0.0.0",
-    "port": 5000,
-    "debug": os.getenv("DEBUG", "false").lower() == "true",
-    "cors_origins": ["http://localhost:3000", "http://127.0.0.1:3000"],
-    "max_sessions": 100,
-    "session_timeout": 3600  # 1 hora en segundos
+# Configuración de Reinforcement Learning
+RL_CONFIG = {
+    # Tipo de agente
+    "agent_type": "DQN",  # DQN, PPO, A3C
+    
+    # Arquitectura
+    "state_size": 256,
+    "action_size": 9,  # 4 movimientos + 5 cambios de Pokemon
+    "hidden_layers": [512, 256, 128],
+    
+    # Hiperparámetros de entrenamiento
+    "learning_rate": 0.0001,
+    "gamma": 0.99,  # Factor de descuento
+    "epsilon_start": 1.0,  # Exploración inicial
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.995,
+    
+    # Replay buffer
+    "buffer_size": 100000,
+    "batch_size": 64,
+    "min_buffer_size": 1000,  # Mínimo antes de entrenar
+    
+    # Self-play
+    "episodes": 10000,
+    "max_steps_per_episode": 100,
+    "update_target_every": 1000,  # Actualizar target network
+    
+    # Evaluación
+    "eval_frequency": 100,  # Cada N episodios
+    "eval_episodes": 10,
+    
+    # Guardado
+    "save_frequency": 500,  # Cada N episodios
+    "checkpoint_dir": PROJECT_ROOT / "checkpoints"
+}
+
+# Sistema de Recompensas
+REWARD_CONFIG = {
+    "win": 1.0,
+    "loss": -1.0,
+    "ko_opponent": 0.3,
+    "lose_pokemon": -0.3,
+    "damage_dealt": 0.001,  # Por punto de daño
+    "damage_taken": -0.001,
+    "invalid_move": -0.5,
+    "type_advantage_used": 0.1,
+    "switch_unnecessary": -0.05,
 }
 
 # Configuración de logging
@@ -120,7 +159,8 @@ def get_config(section: str = None) -> Dict[str, Any]:
     all_config = {
         "data": DATA_CONFIG,
         "model": MODEL_CONFIG,
-        "web": WEB_CONFIG,
+        "rl": RL_CONFIG,
+        "rewards": REWARD_CONFIG,
         "logging": LOGGING_CONFIG,
         "pokemon": POKEMON_CONFIG,
         "continuous_learning": CONTINUOUS_LEARNING_CONFIG,

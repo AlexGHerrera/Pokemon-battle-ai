@@ -2,9 +2,11 @@
 AI Models Module
 ===============
 
-Neural network architectures and model utilities for Pokemon battle AI.
+Neural network architectures for Pokemon battle AI.
 
 Components:
-- architectures: Neural network model definitions
-- pretrained: Pre-trained model storage and loading
+- networks: Neural network architectures (Q-networks, Policy networks)
+- baseline_models: Classical ML models (Fase 1)
 """
+
+__all__ = ['QNetwork', 'PolicyNetwork', 'BaselineModels']

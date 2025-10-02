@@ -1,16 +1,17 @@
 """
-Pokemon Battle AI - Complete System
-====================================
+Pokemon Battle AI - Reinforcement Learning Agent
+=================================================
 
-A comprehensive AI system for Pokemon battle analysis, training, and gameplay.
+A Reinforcement Learning system for Pokemon battles.
 
 Modules:
-- data: Data processing and management
-- models: AI model architectures and utilities
-- training: Model training and evaluation
-- web: Web interface and API
+- agents: RL agents (DQN, PPO, etc.)
+- data: Data processing and feature extraction
+- environment: Battle environment (Gym compatible)
+- models: Neural network architectures
+- training: Training systems (RL + ML)
 - utils: Common utilities and helpers
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __author__ = "Alejandro Guerra Herrera"

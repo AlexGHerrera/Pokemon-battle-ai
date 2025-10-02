@@ -1,75 +1,84 @@
-# 🔥 Pokemon Battle AI - La Búsqueda del Modelo Definitivo
+# 🔥 Pokemon Battle AI - El Camino hacia el Maestro Definitivo
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red.svg)](https://pytorch.org/)
+[![Reinforcement Learning](https://img.shields.io/badge/RL-DQN%20%7C%20PPO-red.svg)](https://pytorch.org/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3%2B-orange.svg)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-red.svg)](https://xgboost.readthedocs.io/)
-[![Flask](https://img.shields.io/badge/Flask-2.2%2B-green.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Baseline ROC-AUC](https://img.shields.io/badge/Baseline%20ROC--AUC-0.819-green.svg)](notebooks/)
-[![Advanced ML](https://img.shields.io/badge/Advanced%20ML-7%20Algorithms-purple.svg)](notebooks/ML_Training_Advanced.ipynb)
+[![Status](https://img.shields.io/badge/Status-Phase%201%20Complete-green.svg)](notebooks/)
+[![Vision](https://img.shields.io/badge/Vision-RL%20Agent-purple.svg)](README.md)
 
 ![Pokemon Battle Analysis](assets/images/battle_patterns_analysis.png)
 
-> **"En el mundo de las batallas Pokemon, cada decisión cuenta. Cada movimiento, cada cambio, cada estrategia puede determinar la diferencia entre la victoria y la derrota."**
+> **"En el mundo de las batallas Pokemon, cada decisión cuenta. Cada movimiento, cada cambio, cada estrategia puede determinar la diferencia entre la victoria y la derrota. Nuestro objetivo: crear una IA que no solo prediga batallas, sino que las JUEGUE, aprenda de cada decisión y se convierta en el mejor entrenador Pokemon."**
 
-## 🎯 La Misión: Superar lo Imposible
+## 🎯 La Misión Épica: Crear el Maestro Pokemon Definitivo
 
-**Sistema completo de inteligencia artificial para batallas Pokemon** con ciencia de datos avanzada. No nos conformamos con modelos simples; hemos desplegado un **arsenal completo de algoritmos de última generación** para crear el predictor de batallas Pokemon más sofisticado jamás desarrollado.
+**Un agente de Reinforcement Learning que juega batallas Pokemon, aprende de cada decisión y evoluciona continuamente.** Este no es un simple predictor: es un **entrenador artificial** que toma decisiones en tiempo real, explora estrategias, comete errores, aprende de ellos y mejora hasta alcanzar el nivel de los mejores jugadores humanos.
+
+### 🌟 La Visión Final
+
+Imagina una IA que:
+
+- ✨ **Juega batallas completas** tomando decisiones turno a turno
+- 🧠 **Aprende de cada acción** mediante Reinforcement Learning
+- 🔄 **Se entrena mediante self-play** contra versiones de sí misma
+- 📈 **Mejora continuamente** con cada batalla jugada
+- 🎯 **Explica sus decisiones** con razonamiento estratégico
+- 🏆 **Compite contra humanos** y aprende de maestros Pokemon
 
 ### 🏆 El Viaje Épico: Estado Actual
 
-**Fase 1: El Despertar de los Datos** ✅ **COMPLETADO**
+**Fase 1: Toma de Contacto - Conociendo el Campo de Batalla** ✅ **COMPLETADO**
 
-- Análisis exploratorio épico de 14,000+ batallas reales
-- Visualizaciones temáticas Pokemon que revelan patrones ocultos
-- Insights estratégicos profundos extraídos de los datos
-- Notebook: `EDA_notebook_ready.ipynb`
+- ✅ Análisis exploratorio de 14,000+ batallas reales (`EDA_notebook_ready.ipynb`)
+- ✅ Visualizaciones temáticas que revelan patrones del meta-game
+- ✅ Comprensión profunda de tipos, Pokemon y mecánicas
+- ✅ Baseline predictor: ROC-AUC **0.819** - *"¿Puede un modelo predecir victorias?"*
+- 📊 **Aprendizaje clave**: Sí, los patrones existen y son capturables
 
-**Fase 2: La Alquimia de los Datos** ✅ **COMPLETADO**
+**Fase 2: Análisis de Decisiones - El Cerebro del Entrenador** 🔄 **EN PROGRESO**
 
-- Feature engineering avanzado con 37 características válidas (sin data leakage)
-- Type matchups y Pokemon BST como pilares predictivos
-- Transformación de equipos observables en sabiduría estratégica
-- Base de datos de 200+ Pokemon con tipos y estadísticas
-- **Baseline Model**: ROC-AUC **0.819** (13,979 batallas - dataset completo)
+- 🎯 Nuevo notebook: `EDA_Decision_Analysis.ipynb`
+- 🔍 Análisis turno a turno de decisiones exitosas
+- 🧠 Identificación de patrones en secuencias de movimientos
+- 📈 Diseño del espacio de estados y acciones para RL
+- 🎮 Extracción de "jugadas ganadoras" de maestros Pokemon
 
-**Fase 3: El Gran Torneo de Algoritmos** 🔄 **EN PROGRESO**
+**Fase 3: El Primer Agente - Aprendiendo a Jugar** ⏸️ **PENDIENTE**
 
-- Notebook preparado: `ML_Training_Advanced.ipynb`
-- 7 gladiadores de ML listos para competir
-- Sistema de entrenamiento con métricas sofisticadas configurado
-- ⏳ Pendiente: Entrenamiento con dataset completo
+- 🤖 Implementación de agente DQN (Deep Q-Network)
+- 🎲 Entrenamiento mediante self-play
+- 📊 Sistema de recompensas y evaluación
+- 🔄 Integración con Pokemon Showdown API
+- 🎯 Objetivo: Ganar > 50% contra jugadores random
 
-**Fase 4: La Evolución de los Campeones** ⏸️ **PENDIENTE**
+**Fase 4: Evolución y Maestría - El Camino al Top** ⏸️ **PENDIENTE**
 
-- Optimización de hiperparámetros con búsqueda inteligente
-- Ensemble de modelos como "Alianza Definitiva"
-- Análisis forense de errores estilo "CSI: Pokemon Edition"
-- 🎯 Objetivo: Superar ROC-AUC 0.85
+- 🚀 Algoritmos avanzados: PPO, A3C, AlphaZero-style
+- 🧬 Optimización de hiperparámetros y arquitecturas
+- 🏆 Competición contra jugadores humanos
+- 📈 Aprendizaje continuo desde batallas en vivo
+- 🎯 Objetivo final: Alcanzar nivel competitivo (1500+ ELO)
 
-### 🏆 **Arsenal de Modelos Desplegado**
+### 📊 **Estado Actual del Proyecto**
 
-**Los Siete Gladiadores del Machine Learning:**
+**🎯 Fase 1 Completada - Toma de Contacto:**
 
-- 🎯 **Logistic Regression**: El estratega clásico, elegante y directo
-- 🌳 **Random Forest**: El consejo de ancianos, sabiduría colectiva
-- ⚡ **Gradient Boosting**: El perfeccionista que aprende de cada error
-- 🚀 **XGBoost**: El campeón de Kaggle, optimizado para ganar
-- 💨 **LightGBM**: El velocista inteligente, rápido pero preciso
-- 🧠 **Neural Networks**: El cerebro artificial que ve patrones complejos
-- ⚔️ **SVM**: El matemático puro con fronteras de decisión perfectas
+- ✅ **EDA Exploratorio**: 14,000+ batallas analizadas
+- ✅ **Baseline Predictor**: ROC-AUC 0.819 (prueba de concepto exitosa)
+- ✅ **Feature Engineering**: 37 características pre-batalla extraídas
+- ✅ **Type Matchups**: Sistema 18x18 tipos implementado
+- ✅ **Pokemon Database**: 200+ especies mapeadas con BST
+- 📝 **Conclusión**: Los patrones de victoria son predecibles, base sólida para RL
 
-**Métricas Actuales:**
+**🔬 Próximos Pasos - Fase 2:**
 
-- **Baseline ROC-AUC**: **0.819** ✅ (13,979 batallas - modelo honesto sin data leakage)
-- **Dataset EDA**: 2,000 batallas (análisis exploratorio rápido)
-- **Dataset Training**: 13,979 batallas (entrenamiento completo del baseline)
-- **Features válidas**: 37 características PRE-BATALLA (deployable en producción)
-- **Type matchups**: Sistema completo de efectividad 18x18 tipos
-- **Pokemon database**: 200+ especies con BST y tipos mapeados
-- **Estado**: EDA completado, baseline entrenado, modelos avanzados en preparación
-- **Próximo objetivo**: ROC-AUC > 0.85 con modelos avanzados
+- 🎯 Crear `EDA_Decision_Analysis.ipynb`
+- 🔍 Analizar decisiones turno a turno
+- 🧠 Diseñar espacio de estados para agente RL
+- 📊 Identificar patrones en secuencias de acciones
+- 🎮 Preparar datos para entrenamiento de agente
 
 ### 📊 Visualizaciones Generadas
 
@@ -85,15 +94,16 @@
 
 - `baseline_model_performance.png` - ROC Curve (AUC=0.819) + Top 15 Features
 
-## 📊 El Arsenal de Datos: Reviviendo Miles de Batallas Épicas
+## 📊 El Arsenal de Datos: La Memoria de 14,000 Batallas
 
-**La Biblioteca Completa de la Experiencia Pokemon:**
+**La Biblioteca Completa de Experiencia Pokemon:**
 
 - **Fuente**: Batallas reales de Pokemon Showdown (formato gen9randombattle)
-- **Escala épica**: ~14,000 batallas individuales (¡el dataset completo liberado!)
-- **Formato**: JSON estructurado con narrativas de batalla completas
-- **Riqueza**: Eventos de batalla, estados del juego, metadata de jugadores, resultados
-- **Evolución**: De muestra de 2,000 (EDA rápido) → Dataset completo (entrenamiento épico)
+- **Escala**: ~14,000 batallas individuales con logs completos
+- **Formato**: JSON estructurado con secuencias de decisiones turno a turno
+- **Riqueza**: Movimientos, cambios, daño, estados, metadata de jugadores
+- **Valor para RL**: Cada batalla es una secuencia de (estado, acción, recompensa)
+- **Uso actual**: Fase 1 (predicción) → Fase 2+ (entrenamiento de agente)
 
 ### 🎮 Base de Datos Pokemon (`pokemon_data.py`)
 
@@ -121,88 +131,93 @@ Cada batalla es un testimonio de:
 - **Momentos críticos** que definen victoria o derrota
 - **Patrones meta** que solo emergen con grandes volúmenes de datos
 
-## 🚀 El Laboratorio del Dr. Frankenstein: Características Épicas
+## 🚀 Arquitectura del Sistema: Del Análisis al Agente
 
-### 🧠 Centro de Comando de Machine Learning
+### 🔬 Fase 1: Fundamentos (Completado)
 
-- **7 Algoritmos gladiadores** compitiendo simultáneamente
-- **Métricas avanzadas**: ROC-AUC, MCC, Brier Score, Log Loss, Balanced Accuracy
-- **Visualizaciones épicas**: ROC curves, Precision-Recall, Learning curves, Calibration
-- **Análisis de consenso** entre modelos para feature importance
-- **Optimización evolutiva** con RandomizedSearchCV
-- **Ensemble inteligente** con soft voting democracy
-- **CSI de errores** para análisis forense de predicciones
+**Sistema de Predicción (Baseline):**
 
-### 🎭 Documentación narrativa integrada en todo el proyecto
+- ✅ Pipeline de datos: JSON → Features → Modelo
+- ✅ 7 algoritmos ML probados (Logistic, RF, XGBoost, LightGBM, NN, SVM, GB)
+- ✅ Métricas avanzadas: ROC-AUC, MCC, Brier Score
+- ✅ Visualizaciones temáticas Pokemon
+- ✅ Base de datos Pokemon con tipos y BST
+- 📝 **Resultado**: Predicción funcional, patrones identificados
 
-- **Notebooks épicos** con análisis detallado de datos
-- **Metáforas Pokemon** consistentes en toda la documentación
-- **Análisis técnico profundo** con explicaciones claras
-- **Caracterización de algoritmos** como especialistas únicos
-- **Estructura organizada** con progresión lógica de conceptos
+### 🤖 Fase 2-4: Agente RL (Roadmap)
 
-### 🧪 Arquitecturas de IA Neural (PyTorch)
+**Componentes a Desarrollar:**
 
-- **4 Arquitecturas especializadas**: Red básica, LSTM, Atención y Ensemble
-- **Entrenamiento automatizado** con métricas y validación
-- **Aprendizaje continuo** desde interacciones de usuarios
-- **Soporte GPU/CPU** configurable
+1. **🧠 Agente de Reinforcement Learning**
+   - Arquitecturas: DQN, PPO, A3C
+   - Redes neuronales con PyTorch
+   - Sistema de memoria y replay buffer
+   - Exploración vs explotación (epsilon-greedy)
 
-### 🎮 Interfaz Web Interactiva
+2. **🎮 Entorno de Batalla**
+   - Integración con Pokemon Showdown API
+   - Simulador local para self-play
+   - Representación de estados de batalla
+   - Sistema de acciones (movimientos + cambios)
 
-- **Juego en tiempo real** contra la IA
-- **Interfaz moderna** con Bootstrap y JavaScript
-- **Sistema de sesiones** para múltiples jugadores
-- **Logging automático** de todas las batallas
+3. **📊 Sistema de Recompensas**
+   - Recompensa final: +1 victoria / -1 derrota
+   - Recompensas intermedias: daño, KOs, ventaja
+   - Penalizaciones: movimientos inútiles, errores
+   - Shaping para acelerar aprendizaje
 
-### 📊 Pipeline de Datos Alquímico
+4. **🔄 Pipeline de Entrenamiento**
+   - Self-play: agente vs agente
+   - Evaluación contra baselines
+   - Guardado de checkpoints
+   - Monitorización de progreso
 
-- **Transformación épica** de batallas en features predictivas
-- **Muestreo inteligente** para desarrollo ágil
-- **Procesamiento masivo** del dataset completo
-- **Feature engineering** que captura el "ADN" de cada batalla
+5. **📊 Análisis y Evaluación**
+   - Winrate vs diferentes oponentes
+   - Análisis de estrategias aprendidas
+   - Visualización de decisiones
+   - Comparación con jugadores humanos
 
-### ⚡ Arquitectura de Producción
-
-- **Configuración centralizada** para todo el ecosistema
-- **Logging estructurado** y monitoreo épico
-- **Tests automatizados** y CI/CD ready
-- **Documentación narrativa** completa
-
-## 🏗️ Arquitectura del Sistema
+## 🏗️ Estructura del Proyecto
 
 ```text
-Pokemon_battle/ 🏰 El Reino del AI Pokemon
-├── src/ ⚔️ Arsenal de Código
-│   ├── data/ 🧬 Laboratorio de Alquimia de Datos
-│   │   ├── processors.py          # Transformación épica de batallas
-│   │   ├── loaders/               # Cargadores de memorias de batalla
-│   │   └── validators/            # Guardianes de calidad de datos
-│   ├── models/ 🤖 Gladiadores de IA
-│   │   ├── architectures.py       # 4 tipos de cerebros neuronales
-│   │   └── pretrained/            # Campeones entrenados
-│   ├── training/ 🏟️ Arena de Entrenamiento
-│   │   ├── trainer.py             # Entrenador neural épico
-│   │   └── ml_trainer.py          # Maestro de 7 algoritmos ML
-│   ├── web/ 🎮 Interfaz de Batalla
-│   │   ├── backend/app.py         # Servidor Flask + API REST
-│   │   └── frontend/              # Interfaz moderna de combate
-│   └── utils/ 🛠️ Herramientas del Maestro
-├── config/ ⚙️ Centro de Comando
-│   └── config.py                  # Configuración del reino
-├── data/ 💾 Biblioteca de Batallas
-│   ├── battles/                   # Archivos individuales de combate
-│   ├── all_battles.json          # 🔥 DATASET COMPLETO LIBERADO
-│   ├── battles_sample_2000.json  # Muestra para EDA rápido
-│   └── continuous_learning/       # Aprendizaje evolutivo
-├── notebooks/ 📚 Pergaminos de Sabiduría
-│   ├── EDA_notebook_ready.ipynb  # 📊 Análisis exploratorio épico
-│   └── ML_Training_Advanced.ipynb # 🚀 ENTRENAMIENTO AVANZADO COMPLETO
-├── assets/ 🎨 Galería de Visualizaciones
-│   └── images/                    # Gráficos que cuentan historias
-├── tests/ 🧪 Laboratorio de Pruebas
-├── docs/ 📜 Documentación Narrativa
-└── logs/ 📝 Crónicas del Sistema
+Pokemon_battle/ 🏰 El Camino hacia el Maestro Pokemon
+├── src/ ⚔️ Código Principal
+│   ├── data/ 🧬 Procesamiento de Datos
+│   │   ├── processors.py          # Extracción de features (Fase 1)
+│   │   ├── battle_parser.py       # Parser de batallas para RL (Fase 2+)
+│   │   ├── loaders/               # Carga de datos
+│   │   └── validators/            # Validación de datos
+│   ├── models/ 🤖 Modelos de IA
+│   │   ├── architectures.py       # Redes neuronales (predictor + agente)
+│   │   ├── rl_agent.py            # Agente RL (DQN/PPO) - Fase 3+
+│   │   └── pretrained/            # Modelos guardados
+│   ├── training/ 🏟️ Entrenamiento
+│   │   ├── ml_trainer.py          # Entrenador ML clásico (Fase 1)
+│   │   ├── rl_trainer.py          # Entrenador RL (Fase 3+)
+│   │   └── self_play.py           # Sistema de self-play (Fase 3+)
+│   ├── environment/ 🎮 Entorno de Batalla
+│   │   ├── battle_env.py          # Gym environment (Fase 3+)
+│   │   ├── showdown_api.py        # Integración Pokemon Showdown (Fase 3+)
+│   │   └── simulator.py           # Simulador local (Fase 3+)
+│   └── utils/ 🛠️ Utilidades
+├── config/ ⚙️ Configuración
+│   └── config.py                  # Configuración global
+├── data/ 💾 Datos
+│   ├── battles/                   # 14,000+ batallas JSON
+│   ├── all_battles.json          # Dataset completo
+│   ├── battles_sample_2000.json  # Muestra para desarrollo
+│   └── rl_experiences/            # Experiencias del agente (Fase 3+)
+├── notebooks/ 📚 Notebooks de Análisis
+│   ├── EDA_notebook_ready.ipynb       # ✅ Fase 1: Toma de contacto
+│   ├── EDA_Decision_Analysis.ipynb    # 🔄 Fase 2: Análisis de decisiones
+│   ├── ML_Training_Advanced.ipynb     # ✅ Fase 1: Baseline predictor
+│   └── RL_Agent_Training.ipynb        # ⏸️ Fase 3+: Entrenamiento agente
+├── assets/ 🎨 Visualizaciones
+│   └── images/                    # Gráficos y análisis
+├── tests/ 🧪 Tests
+├── docs/ 📜 Documentación
+└── logs/ 📝 Logs del sistema
 ```
 
 ## 🛠️ Instalación y Configuración
@@ -244,136 +259,152 @@ DATA_SAMPLE_SIZE=2000 # Tamaño de muestra para desarrollo
 
 ## 🚀 Guía de Uso
 
-### 1. 📊 El Despertar de los Datos (EDA Épico)
+### 📊 Fase 1: Toma de Contacto (Completado)
+
+**1. Análisis Exploratorio de Datos:**
 
 ```bash
-# Lanzar el análisis exploratorio narrativo
+# Ejecutar EDA completo
 jupyter lab notebooks/EDA_notebook_ready.ipynb
-
-# O ejecutar la versión Python del pergamino
-python notebooks/EDA_notebook_ready.py
 ```
 
-**Lo que descubrirás:**
-- Análisis épico que transforma datos en insights accionables
-- Visualizaciones temáticas Pokemon que revelan patrones ocultos
-- Análisis de 14,000+ batallas con metodología rigurosa
-- Insights estratégicos presentados de forma clara y comprensible
+**Qué descubrirás:**
 
-### 2. 🚀 El Gran Torneo de Algoritmos (ML Avanzado)
+- Patrones de victoria en 14,000+ batallas
+- Pokemon y tipos más efectivos
+- Correlaciones entre features
+- Baseline predictor: ROC-AUC 0.819
 
-#### Opción A: Notebook Épico Completo (Recomendado)
+**2. Entrenar Baseline Predictor (Opcional):**
+
 ```bash
-# Lanzar el entrenamiento épico de 7 algoritmos
+# Entrenar 7 algoritmos ML
 jupyter lab notebooks/ML_Training_Advanced.ipynb
-
-# O ejecutar la versión Python completa
-python notebooks/ML_Training_Advanced.py
 ```
 
-**El arsenal completo incluye:**
-- 🎯 7 gladiadores de ML compitiendo simultáneamente
-- 📊 Métricas avanzadas y visualizaciones épicas
-- ⚙️ Optimización de hiperparámetros evolutiva
-- 🤝 Ensemble "Alianza Definitiva"
-- 🔍 Análisis forense de errores estilo CSI
+**Resultado:**
 
-#### Opción B: Entrenamiento Neural Individual
-```python
-from src.training.trainer import PokemonTrainer
-from src.models.architectures import PokemonBattleNet
-from src.data.processors import BattleDataProcessor
+- Comparación de 7 algoritmos
+- Visualizaciones de rendimiento
+- Modelo guardado para referencia
 
-# Cargar el arsenal completo de datos
-processor = BattleDataProcessor('data/')
-battles = processor.load_battles_optimized(use_sample=False)  # Dataset completo
+### 🔬 Fase 2: Análisis de Decisiones (Próximo Paso)
 
-# Crear y entrenar gladiador neural
-model = PokemonBattleNet()
-trainer = PokemonTrainer(model)
-train_loader, val_loader = trainer.prepare_data(battles)
-history = trainer.train(train_loader, val_loader, num_epochs=50)
-```
-
-### 3. Lanzar Interfaz Web
+**Crear notebook de análisis de decisiones:**
 
 ```bash
-# Iniciar servidor backend
-cd src/web/backend
-python app.py
-
-# Abrir navegador en: http://localhost:5000
+# Analizar decisiones turno a turno
+jupyter lab notebooks/EDA_Decision_Analysis.ipynb
 ```
 
-### 4. Jugar Contra la IA
+**Objetivos:**
 
-1. Abre <http://localhost:5000> en tu navegador
-2. Haz clic en "Nueva Partida"
-3. Elige tus movimientos usando los botones
-4. ¡La IA aprenderá de cada batalla!
+- Extraer secuencias (estado, acción, resultado)
+- Identificar movimientos exitosos por situación
+- Diseñar espacio de estados para RL
+- Analizar estrategias de jugadores top
 
-## 🔧 Configuración Avanzada
+### 🤖 Fase 3+: Entrenamiento de Agente RL (Futuro)
 
-### Personalizar Modelo de IA
+**Entrenar agente que juega batallas:**
 
 ```python
-# config/config.py
-MODEL_CONFIG = {
-    "input_size": 512,
-    "hidden_sizes": [256, 128, 64],  # Capas ocultas
-    "num_actions": 10,               # Acciones posibles
-    "dropout_rate": 0.2,             # Regularización
-    "learning_rate": 0.001,          # Tasa de aprendizaje
-    "batch_size": 32,                # Tamaño de lote
+# Ejemplo conceptual (a implementar)
+from src.models.rl_agent import DQNAgent
+from src.environment.battle_env import PokemonBattleEnv
+from src.training.rl_trainer import RLTrainer
+
+# Crear entorno
+env = PokemonBattleEnv()
+
+# Crear agente
+agent = DQNAgent(
+    state_size=env.observation_space.shape[0],
+    action_size=env.action_space.n
+)
+
+# Entrenar mediante self-play
+trainer = RLTrainer(agent, env)
+trainer.train(episodes=10000)
+```
+
+## 🔧 Configuración (Roadmap)
+
+### Configuración de Agente RL (Fase 3+)
+
+```python
+# config/config.py - A implementar
+RL_CONFIG = {
+    # Arquitectura del agente
+    "agent_type": "DQN",  # DQN, PPO, A3C
+    "state_size": 256,    # Dimensión del estado
+    "action_size": 9,     # 4 movimientos + 5 cambios
+    "hidden_layers": [512, 256, 128],
+    
+    # Hiperparámetros de entrenamiento
+    "learning_rate": 0.0001,
+    "gamma": 0.99,        # Factor de descuento
+    "epsilon_start": 1.0, # Exploración inicial
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.995,
+    
+    # Replay buffer
+    "buffer_size": 100000,
+    "batch_size": 64,
+    
+    # Self-play
+    "episodes": 10000,
+    "max_steps_per_episode": 100,
+    "update_target_every": 1000,
 }
 ```
 
-### Configurar Aprendizaje Continuo
+### Sistema de Recompensas (Fase 3+)
 
 ```python
-CONTINUOUS_LEARNING_CONFIG = {
-    "enabled": True,
-    "retrain_threshold": 50,    # Batallas antes de reentrenar
-    "backup_models": True,      # Guardar versiones anteriores
-    "learning_rate_decay": 0.95 # Decaimiento de tasa de aprendizaje
-}
-```
-
-### Optimización de Rendimiento
-
-```python
-# Para datasets grandes
-DATA_CONFIG = {
-    "sample_size_dev": 2000,    # Desarrollo rápido
-    "sample_size_prod": 10000,  # Producción
-    "use_parquet": True,        # Formato optimizado
-    "chunk_size": 1000          # Procesamiento por chunks
+REWARD_CONFIG = {
+    "win": 1.0,
+    "loss": -1.0,
+    "ko_opponent": 0.3,
+    "lose_pokemon": -0.3,
+    "damage_dealt": 0.001,  # Por punto de daño
+    "damage_taken": -0.001,
+    "invalid_move": -0.5,
+    "type_advantage": 0.1,
 }
 ```
 
 ## 📊 Componentes del Sistema
 
-### Modelos de IA Disponibles
+### Fase 1 (Implementado)
 
-- **PokemonBattleNet**: Red neuronal feedforward básica
-- **RecurrentBattleNet**: LSTM para capturar secuencias de batalla
-- **AttentionBattleNet**: Mecanismo de atención para decisiones críticas
-- **EnsembleBattleNet**: Combinación de múltiples modelos
+- ✅ **BattleDataProcessor**: Extrae features de batallas
+- ✅ **PokemonMLTrainer**: Entrena 7 algoritmos ML
+- ✅ **Type Matchup System**: Cálculo de efectividad
+- ✅ **Visualization Suite**: Gráficos temáticos
 
-### API REST Endpoints
+### Fase 2+ (A Implementar)
 
-- `POST /api/game/start` - Iniciar nueva partida
-- `POST /api/game/{id}/move` - Enviar movimiento
-- `POST /api/game/{id}/end` - Terminar partida
-- `GET /api/stats` - Estadísticas del sistema
-- `GET /api/health` - Estado del servidor
+- ⏸️ **BattleParser**: Extrae secuencias de decisiones
+- ⏸️ **PokemonBattleEnv**: Gym environment para RL
+- ⏸️ **DQNAgent / PPOAgent**: Agentes de RL
+- ⏸️ **RLTrainer**: Sistema de entrenamiento RL
+- ⏸️ **SelfPlaySystem**: Self-play para mejora continua
+- ⏸️ **ShowdownAPI**: Integración con Pokemon Showdown
 
 ### Archivos Generados
 
-- **Modelos entrenados**: `src/models/pretrained/`
-- **Datos de aprendizaje**: `data/continuous_learning/`
-- **Logs del sistema**: `logs/pokemon_ai.log`
-- **Visualizaciones EDA**: `notebooks/output/`
+**Fase 1:**
+
+- `output/battle_features.csv` - Features extraídas
+- `output/*.png` - Visualizaciones EDA
+- `src/models/pretrained/baseline_*.pkl` - Modelos baseline
+
+**Fase 3+ (Futuro):**
+
+- `data/rl_experiences/` - Experiencias del agente
+- `src/models/pretrained/agent_*.pth` - Checkpoints del agente
+- `logs/training_*.log` - Logs de entrenamiento RL
 
 ## 🎯 Insights Clave para IA
 
@@ -429,7 +460,7 @@ DATA_CONFIG = {
 - ~~`move_events`, `switch_events`~~ - Ocurren durante la batalla
 - ~~`ladder_rating`~~ - No disponible en producción
 
-## 📊 El Despertar de los Datos: Revelaciones Épicas del EDA
+## 📊 Fase 1: Revelaciones del Análisis Exploratorio
 
 ### 🎭 La Historia que Cuentan los Números
 
@@ -474,35 +505,95 @@ battles = create_sample_dataset(sample_size=500)
 battles = create_sample_dataset(sample_size=5000)
 ```
 
-## 📈 La Próxima Evolución: El Futuro Épico
+## 📈 Roadmap: El Camino hacia el Maestro Pokemon
 
-### 🚀 **Fase 5: La Trascendencia (Próximamente)**
+### ✅ Fase 1: Toma de Contacto (Completado)
 
-1. **🧬 Feature Engineering Cuántico**
-   - Secuencias temporales que capturan el "momentum" de batalla
-   - Embeddings neuronales de Pokemon y movimientos
-   - Estados de campo contextuales con memoria a largo plazo
-   - Análisis de "micro-decisiones" dentro de cada turno
+**Objetivo:** Entender el dominio y validar que los patrones existen
 
-2. **🤖 IA de Próxima Generación**
-   - Transformers para entender secuencias de batalla completas
-   - Aprendizaje por refuerzo con self-play épico
-   - Meta-learning que se adapta a diferentes estilos de juego
-   - Evaluación contra maestros Pokemon humanos
+- ✅ EDA de 14,000+ batallas
+- ✅ Sistema de type matchups
+- ✅ Base de datos Pokemon (200+ especies)
+- ✅ Baseline predictor (ROC-AUC 0.819)
+- ✅ Visualizaciones temáticas
+- 📝 **Conclusión:** Los patrones de victoria son predecibles
 
-3. **⚡ Optimizaciones Legendarias**
-   - Pipeline de preprocessing que procesa millones de batallas
-   - Métricas de evaluación que capturan la "épica" de cada predicción
-   - Sistema de entrenamiento distribuido en la nube
-   - Real-time learning desde batallas en vivo
+### 🔄 Fase 2: Análisis de Decisiones (En Progreso)
 
-### 🎯 **El Sueño Final: Pokemon Master AI**
+**Objetivo:** Entender qué decisiones llevan a la victoria
 
-**Visión épica:** Crear una IA que no solo prediga batallas, sino que:
-- **Entienda estrategias** como un maestro Pokemon
-- **Se adapte en tiempo real** a nuevos meta-games
-- **Explique sus decisiones** con narrativas comprensibles
-- **Inspire a entrenadores** con insights estratégicos únicos
+- 🎯 Crear `EDA_Decision_Analysis.ipynb`
+- 🔍 Extraer secuencias (estado, acción, resultado) de batallas
+- 🧠 Analizar movimientos exitosos por situación
+- 📊 Identificar patrones en secuencias de acciones
+- 🎮 Diseñar espacio de estados y acciones para RL
+- 📈 Estudiar estrategias de jugadores top vs random
+
+### ⏸️ Fase 3: Primer Agente RL (Pendiente)
+
+**Objetivo:** Crear un agente que aprenda a jugar desde cero
+
+1. **Implementar Entorno de Batalla**
+   - Gym environment compatible con OpenAI Gym
+   - Representación de estados de batalla
+   - Sistema de acciones válidas
+   - Cálculo de recompensas
+
+2. **Implementar Agente DQN**
+   - Red neuronal para Q-values
+   - Replay buffer para experiencias
+   - Target network para estabilidad
+   - Epsilon-greedy para exploración
+
+3. **Sistema de Self-Play**
+   - Entrenamiento agente vs agente
+   - Guardado de checkpoints
+   - Monitorización de progreso
+   - Evaluación contra baselines
+
+4. **Integración con Pokemon Showdown**
+   - API para jugar batallas reales
+   - Parser de estados de batalla
+   - Sistema de acciones
+
+**🎯 Objetivo:** Winrate > 50% contra jugadores random
+
+### ⏸️ Fase 4: Evolución y Maestría (Futuro)
+
+**Objetivo:** Alcanzar nivel competitivo humano
+
+1. **Algoritmos Avanzados**
+   - PPO (Proximal Policy Optimization)
+   - A3C (Asynchronous Actor-Critic)
+   - AlphaZero-style (MCTS + Neural Networks)
+
+2. **Mejoras de Arquitectura**
+   - Attention mechanisms para focus en Pokemon clave
+   - LSTM para memoria de secuencias
+   - Embeddings de Pokemon y movimientos
+
+3. **Curriculum Learning**
+   - Empezar contra oponentes débiles
+   - Incrementar dificultad progresivamente
+   - Aprender de jugadores humanos top
+
+4. **Explicabilidad**
+   - Visualización de decisiones
+   - Análisis de estrategias aprendidas
+   - Generación de narrativas de batalla
+
+**🎯 Objetivo:** ELO 1500+ en Pokemon Showdown
+
+### 🌟 Visión Final: El Maestro Pokemon AI
+
+Una IA que:
+
+- ✨ **Juega batallas** a nivel competitivo humano
+- 🧠 **Aprende continuamente** de cada batalla
+- 🔄 **Se adapta** a cambios en el meta-game
+- 📊 **Explica sus decisiones** de forma comprensible
+- 🏆 **Compite** contra los mejores jugadores
+- 💡 **Descubre estrategias** que humanos no han considerado
 
 ## 🤝 Contribuir
 
@@ -549,12 +640,14 @@ Para preguntas o colaboraciones:
 
 ⭐ **¡Dale una estrella si este proyecto épico te ha inspirado!** ⭐
 
-**¿Te atreves a enfrentar a nuestros 7 gladiadores de ML?**  
-**¿Lograrás superar el baseline ROC-AUC de 0.837?**  
-**¿Descubrirás patrones que ni los maestros Pokemon conocen?**
+**¿Te atreves a crear un agente que aprenda a jugar Pokemon?**  
+**¿Lograrás que supere a jugadores humanos?**  
+**¿Descubrirás estrategias que ni los maestros Pokemon conocen?**
 
-### 🔥 **La aventura continúa...**
+### 🔥 **La aventura apenas comienza...**
 
-*Cada fork es una nueva historia. Cada pull request es una nueva batalla. Cada estrella es un voto de confianza en nuestra misión épica.*
+*Fase 1 completada: Sabemos que los patrones existen.*  
+*Fase 2 en progreso: Entendiendo las decisiones ganadoras.*  
+*Fase 3+: Crear el agente que juegue y aprenda.*
 
-**¡El futuro del AI Pokemon está en tus manos!** 🚀
+**¡El camino hacia el Maestro Pokemon AI está trazado!** 🚀
