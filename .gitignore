@@ -126,13 +126,16 @@ Temporary Items
 data/all_battles.json
 data/battles/*.json
 data/*.parquet
-output/
+training_outputs/
 *.log
 temp/
 
 # Working files (not for repo)
 notebooks/EDA_notebook_ready.py
 notebooks/ML_Training_Advanced.py
+
+# Work documentation (internal use only)
+_work_docs/
 
 # Keep sample files but ignore large datasets
 data/battles_sample_*.json  # Files exceed GitHub 100MB limit

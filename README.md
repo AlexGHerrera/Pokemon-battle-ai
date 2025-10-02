@@ -6,7 +6,7 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-red.svg)](https://xgboost.readthedocs.io/)
 [![Flask](https://img.shields.io/badge/Flask-2.2%2B-green.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Baseline ROC-AUC](https://img.shields.io/badge/Baseline%20ROC--AUC-0.837-green.svg)](notebooks/)
+[![Baseline ROC-AUC](https://img.shields.io/badge/Baseline%20ROC--AUC-0.819-green.svg)](notebooks/)
 [![Advanced ML](https://img.shields.io/badge/Advanced%20ML-7%20Algorithms-purple.svg)](notebooks/ML_Training_Advanced.ipynb)
 
 ![Pokemon Battle Analysis](assets/images/battle_patterns_analysis.png)
@@ -17,31 +17,41 @@
 
 **Sistema completo de inteligencia artificial para batallas Pokemon** con ciencia de datos avanzada. No nos conformamos con modelos simples; hemos desplegado un **arsenal completo de algoritmos de última generación** para crear el predictor de batallas Pokemon más sofisticado jamás desarrollado.
 
-### 🏆 El Viaje Épico Completado
+### 🏆 El Viaje Épico: Estado Actual
 
-**Fase 1: El Despertar de los Datos** ✅
+**Fase 1: El Despertar de los Datos** ✅ **COMPLETADO**
+
 - Análisis exploratorio épico de 14,000+ batallas reales
 - Visualizaciones temáticas Pokemon que revelan patrones ocultos
 - Insights estratégicos profundos extraídos de los datos
+- Notebook: `EDA_notebook_ready.ipynb`
 
-**Fase 2: La Alquimia de los Datos** ✅
-- Feature engineering avanzado con 56+ características estratégicas
-- Transformación de logs de batalla en sabiduría predictiva
-- Decodificación del "ADN" único de cada batalla
+**Fase 2: La Alquimia de los Datos** ✅ **COMPLETADO**
 
-**Fase 3: El Gran Torneo de Algoritmos** ✅
-- 7 gladiadores de ML compitiendo simultáneamente
-- Sistema de entrenamiento con métricas sofisticadas
-- Análisis de importancia de características con consenso
+- Feature engineering avanzado con 37 características válidas (sin data leakage)
+- Type matchups y Pokemon BST como pilares predictivos
+- Transformación de equipos observables en sabiduría estratégica
+- Base de datos de 200+ Pokemon con tipos y estadísticas
+- **Baseline Model**: ROC-AUC **0.819** (13,979 batallas - dataset completo)
 
-**Fase 4: La Evolución de los Campeones** ✅
+**Fase 3: El Gran Torneo de Algoritmos** 🔄 **EN PROGRESO**
+
+- Notebook preparado: `ML_Training_Advanced.ipynb`
+- 7 gladiadores de ML listos para competir
+- Sistema de entrenamiento con métricas sofisticadas configurado
+- ⏳ Pendiente: Entrenamiento con dataset completo
+
+**Fase 4: La Evolución de los Campeones** ⏸️ **PENDIENTE**
+
 - Optimización de hiperparámetros con búsqueda inteligente
 - Ensemble de modelos como "Alianza Definitiva"
 - Análisis forense de errores estilo "CSI: Pokemon Edition"
+- 🎯 Objetivo: Superar ROC-AUC 0.85
 
 ### 🏆 **Arsenal de Modelos Desplegado**
 
 **Los Siete Gladiadores del Machine Learning:**
+
 - 🎯 **Logistic Regression**: El estratega clásico, elegante y directo
 - 🌳 **Random Forest**: El consejo de ancianos, sabiduría colectiva
 - ⚡ **Gradient Boosting**: El perfeccionista que aprende de cada error
@@ -50,22 +60,58 @@
 - 🧠 **Neural Networks**: El cerebro artificial que ve patrones complejos
 - ⚔️ **SVM**: El matemático puro con fronteras de decisión perfectas
 
-**Métricas de Batalla:**
-- **Baseline ROC-AUC**: **0.837** (El dragón a vencer)
-- **Dataset completo**: 14,000+ batallas épicas analizadas
-- **Features engineered**: 56+ características estratégicas extraídas
-- **Modelos entrenados**: 7 algoritmos + ensemble + optimizaciones
-- **Análisis avanzado**: Curvas ROC, Precision-Recall, Learning curves, Calibration
-- **Error analysis**: Investigación forense de predicciones fallidas
+**Métricas Actuales:**
+
+- **Baseline ROC-AUC**: **0.819** ✅ (13,979 batallas - modelo honesto sin data leakage)
+- **Dataset EDA**: 2,000 batallas (análisis exploratorio rápido)
+- **Dataset Training**: 13,979 batallas (entrenamiento completo del baseline)
+- **Features válidas**: 37 características PRE-BATALLA (deployable en producción)
+- **Type matchups**: Sistema completo de efectividad 18x18 tipos
+- **Pokemon database**: 200+ especies con BST y tipos mapeados
+- **Estado**: EDA completado, baseline entrenado, modelos avanzados en preparación
+- **Próximo objetivo**: ROC-AUC > 0.85 con modelos avanzados
+
+### 📊 Visualizaciones Generadas
+
+**Análisis Exploratorio:**
+
+- `battle_patterns_analysis.png` - Patrones de duración y eventos
+- `pokemon_analysis.png` - Top Pokemon, niveles, HP
+- `type_analysis.png` - Distribución y winrates por tipo
+- `distributions_analysis.png` - Distribuciones y outliers
+- `correlation_matrix_filtered.png` - Correlaciones entre features
+
+**Modelo Baseline:**
+
+- `baseline_model_performance.png` - ROC Curve (AUC=0.819) + Top 15 Features
 
 ## 📊 El Arsenal de Datos: Reviviendo Miles de Batallas Épicas
 
 **La Biblioteca Completa de la Experiencia Pokemon:**
+
 - **Fuente**: Batallas reales de Pokemon Showdown (formato gen9randombattle)
 - **Escala épica**: ~14,000 batallas individuales (¡el dataset completo liberado!)
 - **Formato**: JSON estructurado con narrativas de batalla completas
 - **Riqueza**: Eventos de batalla, estados del juego, metadata de jugadores, resultados
 - **Evolución**: De muestra de 2,000 (EDA rápido) → Dataset completo (entrenamiento épico)
+
+### 🎮 Base de Datos Pokemon (`pokemon_data.py`)
+
+**El corazón del sistema de type matchups:**
+
+- **200+ Pokemon** con especies mapeadas (Gen 1-9)
+- **Matriz 18x18** de efectividad de tipos completa
+- **Base Stat Totals (BST)** para todos los Pokemon
+- **Tiers competitivos**: Uber, OU, UU, RU
+- **Funciones helper**: `get_pokemon_types()`, `get_pokemon_bst()`, `calculate_matchup_score()`
+
+**Especies incluidas:**
+
+- ✅ Todos los starters (Gen 1-9)
+- ✅ Todos los legendarios principales
+- ✅ Todos los pseudo-legendarios
+- ✅ Pokemon competitivos populares
+- ✅ Gen 9 completo (Paldea)
 
 ### 🎭 Los Protagonistas de Nuestra Historia
 
@@ -344,14 +390,44 @@ DATA_CONFIG = {
 
 ![Type Analysis](assets/images/type_analysis.png)
 
-### Features Relevantes para ML
+### Features Válidas para ML (Sin Data Leakage)
 
-- **Métricas temporales**: `events_per_turn`, `total_turns`
-- **Patrones de acción**: `move_events`, `switch_events`, `damage_events`
-- **Contexto de jugador**: `ladder_rating_pre`, `team_composition`
-- **Estado de batalla**: `weather_conditions`, `side_conditions`
-- **Composición de equipos**: Niveles promedio, HP, diversidad de tipos
-- **Momentum de batalla**: Intensidad por fases (early/mid/late game)
+**✅ Información PRE-BATALLA (Deployable en producción):**
+
+**1. Type Matchups** ⭐⭐⭐⭐⭐ (Factor #1 en Pokemon)
+
+- `type_advantage_score`: Ventaja elemental general
+- `super_effective_count`: Cuántos Pokemon tienen ventaja de tipo
+- `resisted_count`: Cuántos ataques serán resistidos
+- `type_diversity`: Variedad de tipos en el equipo
+- `dual_type_count`: Pokemon con doble tipo
+
+**2. Pokemon Strength (BST)** ⭐⭐⭐⭐
+
+- `avg_bst`: Base Stat Total promedio del equipo
+- `bst_advantage`: Ventaja de poder bruto
+- `legendary_count`: Número de Pokemon legendarios
+- `pseudo_legendary_count`: Número de pseudo-legendarios
+- `min/max_bst`: Pokemon más débil/fuerte
+
+**3. Composición Observable** ⭐⭐⭐⭐
+
+- `team_size`: Tamaño del equipo
+- `avg_level`: Nivel promedio de Pokemon
+- `total_hp`: HP total disponible
+- `species_diversity`: Diversidad de especies
+
+**4. Ventajas Derivadas** ⭐⭐⭐
+
+- `level_advantage`: Diferencia de niveles entre equipos
+- `hp_advantage`: Diferencia de HP total
+- `bst_advantage`: Diferencia de poder bruto
+
+**❌ NO USAMOS (Sería data leakage):**
+
+- ~~`total_turns`~~ - Solo se conoce al final
+- ~~`move_events`, `switch_events`~~ - Ocurren durante la batalla
+- ~~`ladder_rating`~~ - No disponible en producción
 
 ## 📊 El Despertar de los Datos: Revelaciones Épicas del EDA
 
@@ -377,26 +453,16 @@ DATA_CONFIG = {
 - **Flying** (134 usos): La libertad del cielo
 - **Poison** (81 usos): La toxicidad estratégica
 
-### Correlaciones de Features
+### Correlaciones de Features Válidas
 
 ![Correlation Matrix](assets/images/correlation_matrix_filtered.png)
 
-**Top correlaciones con duración de batalla:**
-- `move_events`: 0.981
-- `consecutive_moves`: 0.912  
-- `damage_events`: 0.890
-- `effect_events`: 0.855
+**Insights clave del análisis de correlaciones:**
 
-### Patrones Temporales
-
-![Temporal Analysis](assets/images/temporal_analysis.png)
-
-**Actividad por día:**
-- Viernes: 303 batallas (pico)
-- Martes: 301 batallas
-- Domingo: 261 batallas (mínimo)
-
-**Horas pico:** 01:00 (100 batallas), 00:00 (90 batallas)
+- Type matchups y BST son altamente predictivos
+- Features de composición observable muestran patrones claros
+- No hay multicolinealidad problemática entre features válidas
+- El modelo puede aprender relaciones complejas sin data leakage
 
 ### Configuración Avanzada
 

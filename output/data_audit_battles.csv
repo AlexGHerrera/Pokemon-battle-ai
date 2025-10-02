@@ -1,0 +1,6 @@
+,dtype,cardinalidad,nulos,pct_nulos
+battle_id,object,2000,0,0.0
+timestamp,int64,1997,0,0.0
+total_turns,int64,89,0,0.0
+winner,object,2,0,0.0
+reason,object,1,0,0.0
