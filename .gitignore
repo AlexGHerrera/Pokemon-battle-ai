@@ -121,3 +121,6 @@ output/pokemon_missing.csv
 
 # Work documentation (internal use only)
 _work_docs/
+SCOPE.md
+agents.md
+docs/
