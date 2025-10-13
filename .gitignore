@@ -94,6 +94,7 @@ data/all_battles.json
 data/battles/*.json
 data/battles_sample_*.json
 data/*.parquet
+data/.pokeapi_cache/
 
 # Logs and temporary files
 *.log
@@ -109,6 +110,14 @@ models/pretrained/*.pkl
 # RL specific (future)
 data/rl_experiences/
 data/replay_buffer/
+
+# Backups (temporales del script)
+backups/
+
+# Output files (generated artifacts)
+output/pokemon_completed.txt
+output/pokemon_completed.json
+output/pokemon_missing.csv
 
 # Work documentation (internal use only)
 _work_docs/

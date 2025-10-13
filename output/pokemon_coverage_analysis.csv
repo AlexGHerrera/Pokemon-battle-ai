@@ -1,0 +1,420 @@
+species,appearances,in_pokemon_data,types,bst,status
+Arceus,1009,True,['Normal'],720,Registered
+Rotom,691,True,"['Electric', 'Ghost']",520,Registered
+Deoxys,674,True,['Psychic'],600,Registered
+Tauros,654,True,['Normal'],490,Registered
+Oricorio,651,True,"['Fire', 'Flying']",476,Registered
+Palafin,622,True,['Water'],457,Registered
+Ogerpon,608,True,['Grass'],550,Registered
+Scream Tail,432,True,"['Fairy', 'Psychic']",0,Registered
+Mimikyu,412,True,"['Ghost', 'Fairy']",476,Registered
+Maushold,411,True,['Normal'],470,Registered
+Illumise,408,True,['Bug'],430,Registered
+Sableye,405,True,"['Dark', 'Ghost']",380,Registered
+Dunsparce,397,True,['Normal'],415,Registered
+Galvantula,394,True,"['Bug', 'Electric']",472,Registered
+Dondozo,394,True,['Water'],530,Registered
+Grimmsnarl,393,True,"['Dark', 'Fairy']",510,Registered
+Uxie,391,True,['Psychic'],580,Registered
+Phione,390,True,['Water'],480,Registered
+Alomomola,389,True,['Water'],470,Registered
+Volbeat,388,True,['Bug'],430,Registered
+Granbull,387,True,['Fairy'],450,Registered
+Lanturn,386,True,"['Water', 'Electric']",460,Registered
+Gastrodon,385,True,"['Water', 'Ground']",475,Registered
+Dachsbun,383,True,['Fairy'],477,Registered
+Ariados,382,True,"['Bug', 'Poison']",400,Registered
+Mudsdale,381,True,['Ground'],500,Registered
+Alcremie,380,True,['Fairy'],495,Registered
+Chansey,380,True,['Normal'],450,Registered
+Vaporeon,380,True,['Water'],525,Registered
+Amoonguss,380,True,"['Grass', 'Poison']",464,Registered
+Giratina,379,True,"['Ghost', 'Dragon']",680,Registered
+Hitmontop,379,True,['Fighting'],455,Registered
+Toxapex,378,True,"['Poison', 'Water']",495,Registered
+Milotic,376,True,['Water'],540,Registered
+Persian,375,True,['Normal'],440,Registered
+Blissey,374,True,['Normal'],540,Registered
+Smeargle,373,True,['Normal'],250,Registered
+Mienshao,372,True,['Fighting'],510,Registered
+Zapdos,371,True,"['Electric', 'Flying']",580,Registered
+Porygon2,369,True,['Normal'],515,Registered
+Scizor,369,True,"['Bug', 'Steel']",500,Registered
+Gurdurr,368,True,['Fighting'],405,Registered
+Wyrdeer,368,True,"['Normal', 'Psychic']",525,Registered
+Cresselia,367,True,['Psychic'],600,Registered
+Spidops,367,True,['Bug'],404,Registered
+Spectrier,367,True,['Ghost'],580,Registered
+Garganacl,366,True,['Rock'],500,Registered
+Palossand,366,True,"['Ghost', 'Ground']",480,Registered
+Dusknoir,366,True,['Ghost'],525,Registered
+Spiritomb,365,True,"['Ghost', 'Dark']",485,Registered
+Suicune,365,True,['Water'],580,Registered
+Vikavolt,365,True,"['Bug', 'Electric']",500,Registered
+Eelektross,365,True,['Electric'],515,Registered
+Swalot,365,True,['Poison'],467,Registered
+Mismagius,364,True,['Ghost'],495,Registered
+Mesprit,364,True,['Psychic'],580,Registered
+Slaking,364,True,['Normal'],670,Registered
+Umbreon,363,True,['Dark'],525,Registered
+Mandibuzz,363,True,"['Dark', 'Flying']",510,Registered
+Azumarill,363,True,"['Water', 'Fairy']",420,Registered
+Vileplume,362,True,"['Grass', 'Poison']",490,Registered
+Dedenne,362,True,"['Electric', 'Fairy']",431,Registered
+Electivire,362,True,['Electric'],540,Registered
+Polteageist,362,True,['Ghost'],508,Registered
+Pelipper,361,True,"['Water', 'Flying']",440,Registered
+Gogoat,361,True,['Grass'],531,Registered
+Dudunsparce,360,True,['Normal'],520,Registered
+Hypno,360,True,['Psychic'],483,Registered
+Kleavor,360,True,"['Bug', 'Rock']",500,Registered
+Pincurchin,359,True,['Electric'],435,Registered
+Clefable,359,True,['Fairy'],483,Registered
+Terapagos,359,True,['Normal'],600,Registered
+Kricketune,358,True,['Bug'],384,Registered
+Klefki,357,True,"['Steel', 'Fairy']",470,Registered
+Whimsicott,356,True,"['Grass', 'Fairy']",480,Registered
+Gyarados,356,True,"['Water', 'Flying']",540,Registered
+Arbok,355,True,['Poison'],448,Registered
+Bellossom,355,True,['Grass'],490,Registered
+Shaymin,355,True,['Grass'],600,Registered
+Lumineon,354,True,['Water'],460,Registered
+Wugtrio,354,True,['Water'],425,Registered
+Golduck,354,True,['Water'],500,Registered
+Araquanid,354,True,"['Water', 'Bug']",454,Registered
+Cryogonal,353,True,['Ice'],515,Registered
+Pachirisu,353,True,['Electric'],405,Registered
+Luxray,353,True,['Electric'],523,Registered
+Sylveon,353,True,['Fairy'],525,Registered
+Minun,353,True,['Electric'],405,Registered
+Iron Bundle,353,True,"['Ice', 'Water']",0,Registered
+Oinkologne,353,True,['Normal'],489,Registered
+Ampharos,352,True,['Electric'],510,Registered
+Wigglytuff,352,True,"['Normal', 'Fairy']",435,Registered
+Zebstrika,352,True,['Electric'],497,Registered
+Regice,352,True,['Ice'],580,Registered
+Fezandipiti,352,True,"['Poison', 'Fairy']",555,Registered
+Dragapult,351,True,"['Dragon', 'Ghost']",600,Registered
+Piloswine,351,True,"['Ice', 'Ground']",450,Registered
+Politoed,351,True,['Water'],500,Registered
+Farigiraf,351,True,"['Normal', 'Psychic']",520,Registered
+Overqwil,351,True,"['Dark', 'Poison']",510,Registered
+Slowking,351,True,"['Water', 'Psychic']",490,Registered
+Ribombee,350,True,"['Bug', 'Fairy']",464,Registered
+Honchkrow,350,True,"['Dark', 'Flying']",505,Registered
+Gengar,350,True,"['Ghost', 'Poison']",500,Registered
+Regigigas,349,True,['Normal'],670,Registered
+Bellibolt,349,True,['Electric'],495,Registered
+Espeon,349,True,['Psychic'],525,Registered
+Skarmory,349,True,"['Steel', 'Flying']",465,Registered
+Arcanine,349,True,['Fire'],555,Registered
+Clawitzer,349,True,['Water'],500,Registered
+Banette,349,True,['Ghost'],455,Registered
+Magmortar,349,True,['Fire'],540,Registered
+Snorlax,349,True,['Normal'],540,Registered
+Florges,348,True,['Fairy'],552,Registered
+Misdreavus,348,True,['Ghost'],435,Registered
+Chimecho,348,True,['Psychic'],455,Registered
+Heatran,347,True,"['Fire', 'Steel']",600,Registered
+Skeledirge,347,True,"['Fire', 'Ghost']",534,Registered
+Gumshoos,347,True,['Normal'],418,Registered
+Clodsire,347,True,"['Poison', 'Ground']",430,Registered
+Pikachu,347,True,['Electric'],320,Registered
+Reuniclus,346,True,['Psychic'],490,Registered
+Sandaconda,346,True,['Ground'],510,Registered
+Empoleon,346,True,"['Water', 'Steel']",530,Registered
+Quagsire,346,True,"['Water', 'Ground']",430,Registered
+Brambleghast,345,True,"['Grass', 'Ghost']",480,Registered
+Carbink,345,True,"['Rock', 'Fairy']",500,Registered
+Rabsca,345,True,"['Bug', 'Psychic']",470,Registered
+Ninetales,345,True,['Fire'],505,Registered
+Hitmonchan,345,True,['Fighting'],455,Registered
+Luvdisc,344,True,['Water'],330,Registered
+Cinccino,344,True,['Normal'],470,Registered
+Forretress,344,True,"['Bug', 'Steel']",465,Registered
+Raikou,343,True,['Electric'],580,Registered
+Blastoise,343,True,['Water'],530,Registered
+Houndstone,343,True,['Ghost'],488,Registered
+Trevenant,343,True,"['Ghost', 'Grass']",474,Registered
+Abomasnow,343,True,"['Grass', 'Ice']",494,Registered
+Eiscue,342,True,['Ice'],470,Registered
+Comfey,342,True,['Fairy'],485,Registered
+Hoopa,342,True,"['Psychic', 'Ghost']",600,Registered
+Meganium,342,True,['Grass'],525,Registered
+Toxtricity,342,True,"['Electric', 'Poison']",502,Registered
+Morpeko,342,True,"['Electric', 'Dark']",436,Registered
+Jumpluff,342,True,"['Grass', 'Flying']",460,Registered
+Flutter Mane,341,True,"['Ghost', 'Fairy']",570,Registered
+Groudon,341,True,['Ground'],670,Registered
+Articuno,341,True,"['Ice', 'Flying']",580,Registered
+Hippowdon,341,True,['Ground'],525,Registered
+Sandy Shocks,340,True,"['Electric', 'Ground']",0,Registered
+Entei,340,True,['Fire'],580,Registered
+Gliscor,340,True,"['Ground', 'Flying']",510,Registered
+Ursaring,340,True,['Normal'],500,Registered
+Gardevoir,339,True,"['Psychic', 'Fairy']",518,Registered
+Azelf,339,True,['Psychic'],580,Registered
+Weezing,339,True,['Poison'],490,Registered
+Jirachi,338,True,"['Steel', 'Psychic']",600,Registered
+Lilligant,338,True,['Grass'],480,Registered
+Donphan,337,True,['Ground'],500,Registered
+Primarina,337,True,"['Water', 'Fairy']",530,Registered
+Cyclizar,337,True,"['Dragon', 'Normal']",501,Registered
+Ho,337,True,"['Fire', 'Flying']",680,Registered
+Ting,337,True,"['Fire', 'Flying']",680,Registered
+Annihilape,337,True,"['Fighting', 'Ghost']",535,Registered
+Mew,336,True,['Psychic'],0,Registered
+Gouging Fire,336,True,"['Fire', 'Dragon']",590,Registered
+Greedent,336,True,['Normal'],460,Registered
+Barraskewda,336,True,['Water'],490,Registered
+Froslass,335,True,"['Ice', 'Ghost']",480,Registered
+Tinkaton,335,True,"['Fairy', 'Steel']",506,Registered
+Hatterene,335,True,"['Psychic', 'Fairy']",510,Registered
+Necrozma,335,True,['Psychic'],600,Registered
+Regieleki,334,True,['Electric'],580,Registered
+Probopass,334,True,"['Rock', 'Steel']",525,Registered
+Gothitelle,334,True,['Psychic'],490,Registered
+Calyrex,334,True,"['Psychic', 'Grass']",500,Registered
+Sandslash,334,True,['Ground'],450,Registered
+Lokix,334,True,"['Bug', 'Dark']",450,Registered
+Lugia,334,True,"['Psychic', 'Flying']",680,Registered
+Tsareena,334,True,['Grass'],510,Registered
+Plusle,333,True,['Electric'],405,Registered
+Tentacruel,333,True,"['Water', 'Poison']",515,Registered
+Darkrai,333,True,['Dark'],600,Registered
+Espathra,333,True,['Psychic'],481,Registered
+Inteleon,333,True,['Water'],530,Registered
+Great Tusk,333,True,"['Ground', 'Fighting']",570,Registered
+Moltres,332,True,"['Fire', 'Flying']",580,Registered
+Heracross,332,True,"['Bug', 'Fighting']",500,Registered
+Lunala,332,True,"['Psychic', 'Ghost']",680,Registered
+Ditto,332,True,['Normal'],288,Registered
+Vigoroth,332,True,['Normal'],440,Registered
+Muk,331,True,['Poison'],500,Registered
+Glalie,331,True,['Ice'],480,Registered
+Jolteon,331,True,['Electric'],525,Registered
+Drifblim,331,True,"['Ghost', 'Flying']",498,Registered
+Komala,331,True,['Normal'],480,Registered
+Manaphy,331,True,['Water'],600,Registered
+Swampert,330,True,"['Water', 'Ground']",535,Registered
+Falinks,330,True,['Fighting'],470,Registered
+Zacian,329,True,"['Fairy', 'Steel']",670,Registered
+Kingdra,329,True,"['Water', 'Dragon']",540,Registered
+Iron Treads,329,True,"['Ground', 'Steel']",570,Registered
+Seviper,329,True,['Poison'],458,Registered
+Qwilfish,329,True,"['Water', 'Poison']",440,Registered
+Golurk,329,True,"['Ground', 'Ghost']",483,Registered
+Goodra,328,True,['Dragon'],600,Registered
+Archaludon,328,True,"['Steel', 'Dragon']",600,Registered
+Grumpig,328,True,['Psychic'],470,Registered
+Registeel,328,True,['Steel'],580,Registered
+Kyurem,328,True,"['Dragon', 'Ice']",660,Registered
+Ambipom,328,True,['Normal'],482,Registered
+Basculegion,328,True,"['Water', 'Ghost']",530,Registered
+Furret,327,True,['Normal'],415,Registered
+Hitmonlee,327,True,['Fighting'],455,Registered
+Bronzong,327,True,"['Steel', 'Psychic']",500,Registered
+Zangoose,326,True,['Normal'],458,Registered
+Salazzle,326,True,"['Poison', 'Fire']",480,Registered
+Walking Wake,326,True,"['Water', 'Dragon']",590,Registered
+Tornadus,326,True,['Flying'],580,Registered
+Pyroar,326,True,"['Fire', 'Normal']",507,Registered
+Torkoal,325,True,['Fire'],470,Registered
+Decidueye,325,True,"['Grass', 'Ghost']",530,Registered
+Kyogre,325,True,['Water'],670,Registered
+Corviknight,325,True,"['Flying', 'Steel']",495,Registered
+Dragalge,325,True,"['Poison', 'Dragon']",494,Registered
+Meowstic,325,True,['Psychic'],466,Registered
+Slowbro,324,True,"['Water', 'Psychic']",490,Registered
+Munkidori,324,True,"['Poison', 'Psychic']",555,Registered
+Conkeldurr,324,True,['Fighting'],505,Registered
+Toxicroak,324,True,"['Poison', 'Fighting']",490,Registered
+Mightyena,324,True,['Dark'],420,Registered
+Raichu,324,True,['Electric'],485,Registered
+Kilowattrel,324,True,"['Electric', 'Flying']",490,Registered
+Hawlucha,323,True,"['Fighting', 'Flying']",500,Registered
+Mamoswine,323,True,"['Ice', 'Ground']",530,Registered
+Sunflora,323,True,['Grass'],425,Registered
+Poliwrath,323,True,"['Water', 'Fighting']",510,Registered
+Dialga,322,True,"['Steel', 'Dragon']",680,Registered
+Masquerain,322,True,"['Bug', 'Flying']",454,Registered
+Incineroar,322,True,"['Fire', 'Dark']",530,Registered
+Glastrier,322,True,['Ice'],580,Registered
+Beartic,322,True,['Ice'],505,Registered
+Volcarona,322,True,"['Bug', 'Fire']",550,Registered
+Flygon,321,True,"['Ground', 'Dragon']",520,Registered
+Delibird,321,True,"['Ice', 'Flying']",330,Registered
+Duraludon,321,True,"['Steel', 'Dragon']",535,Registered
+Pecharunt,321,True,"['Poison', 'Ghost']",600,Registered
+Krookodile,321,True,"['Ground', 'Dark']",519,Registered
+Cacturne,321,True,"['Grass', 'Dark']",475,Registered
+Hariyama,321,True,['Fighting'],474,Registered
+Staraptor,321,True,"['Normal', 'Flying']",485,Registered
+Malamar,320,True,"['Dark', 'Psychic']",482,Registered
+Ursaluna,320,True,"['Ground', 'Normal']",550,Registered
+Chesnaught,320,True,"['Grass', 'Fighting']",530,Registered
+Whiscash,320,True,"['Water', 'Ground']",468,Registered
+Mabosstiff,319,True,['Dark'],505,Registered
+Feraligatr,319,True,['Water'],530,Registered
+Orthworm,319,True,['Steel'],480,Registered
+Skuntank,319,True,"['Poison', 'Dark']",479,Registered
+Delphox,318,True,"['Fire', 'Psychic']",534,Registered
+Lycanroc,318,True,['Rock'],487,Registered
+Excadrill,318,True,"['Ground', 'Steel']",508,Registered
+Keldeo,318,True,"['Water', 'Fighting']",580,Registered
+Scrafty,318,True,"['Dark', 'Fighting']",488,Registered
+Girafarig,318,True,"['Normal', 'Psychic']",455,Registered
+Sinistcha,318,True,"['Grass', 'Ghost']",508,Registered
+Metagross,318,True,"['Steel', 'Psychic']",600,Registered
+Grafaiai,317,True,"['Poison', 'Normal']",485,Registered
+Ceruledge,317,True,"['Fire', 'Ghost']",525,Registered
+Braviary,317,True,"['Normal', 'Flying']",510,Registered
+Greninja,317,True,"['Water', 'Dark']",530,Registered
+Lapras,317,True,"['Water', 'Ice']",535,Registered
+Yanmega,316,True,"['Bug', 'Flying']",515,Registered
+Tatsugiri,316,True,"['Dragon', 'Water']",475,Registered
+Bombirdier,316,True,"['Flying', 'Dark']",485,Registered
+Sawsbuck,316,True,"['Normal', 'Grass']",475,Registered
+Latios,316,True,"['Dragon', 'Psychic']",600,Registered
+Glaceon,315,True,['Ice'],525,Registered
+Dewgong,315,True,"['Water', 'Ice']",475,Registered
+Chi,315,True,"['Dark', 'Fire']",570,Registered
+Zekrom,315,True,"['Dragon', 'Electric']",680,Registered
+Emboar,315,True,"['Fire', 'Fighting']",528,Registered
+Rayquaza,314,True,"['Dragon', 'Flying']",680,Registered
+Dugtrio,314,True,['Ground'],425,Registered
+Swanna,314,True,"['Water', 'Flying']",473,Registered
+Raging Bolt,314,True,"['Electric', 'Dragon']",590,Registered
+Torterra,314,True,"['Grass', 'Ground']",525,Registered
+Typhlosion,313,True,['Fire'],534,Registered
+Copperajah,313,True,['Steel'],500,Registered
+Rillaboom,313,True,['Grass'],530,Registered
+Scovillain,313,True,"['Grass', 'Fire']",486,Registered
+Iron Valiant,313,True,"['Fairy', 'Fighting']",570,Registered
+Arboliva,313,True,"['Grass', 'Normal']",510,Registered
+Koraidon,312,True,"['Fighting', 'Dragon']",670,Registered
+Iron Hands,312,True,"['Fighting', 'Electric']",0,Registered
+Slither Wing,312,True,"['Bug', 'Fighting']",0,Registered
+Sneasler,312,True,"['Fighting', 'Poison']",510,Registered
+Camerupt,312,True,"['Fire', 'Ground']",460,Registered
+Rampardos,312,True,['Rock'],495,Registered
+Cramorant,311,True,"['Flying', 'Water']",475,Registered
+Venusaur,311,True,"['Grass', 'Poison']",525,Registered
+Electrode,311,True,['Electric'],490,Registered
+Landorus,310,True,"['Ground', 'Flying']",600,Registered
+Brute Bonnet,310,True,"['Grass', 'Dark']",0,Registered
+Regirock,310,True,['Rock'],580,Registered
+Victreebel,309,True,"['Grass', 'Poison']",490,Registered
+Squawkabilly,309,True,"['Normal', 'Flying']",417,Registered
+Magnezone,309,True,"['Electric', 'Steel']",535,Registered
+Hydreigon,309,True,"['Dark', 'Dragon']",600,Registered
+Pawmot,309,True,"['Electric', 'Fighting']",490,Registered
+Iron Jugulis,309,True,"['Dark', 'Flying']",0,Registered
+Sceptile,308,True,['Grass'],530,Registered
+Chandelure,308,True,"['Ghost', 'Fire']",520,Registered
+Flareon,308,True,['Fire'],525,Registered
+Tyranitar,308,True,"['Rock', 'Dark']",600,Registered
+Porygon,308,True,['Normal'],395,Registered
+Haxorus,308,True,['Dragon'],540,Registered
+Terrakion,308,True,"['Rock', 'Fighting']",580,Registered
+Toucannon,307,True,"['Normal', 'Flying']",485,Registered
+Charizard,307,True,"['Fire', 'Flying']",534,Registered
+Floatzel,307,True,['Water'],495,Registered
+Frosmoth,307,True,"['Ice', 'Bug']",475,Registered
+Diancie,306,True,"['Rock', 'Fairy']",600,Registered
+Reshiram,306,True,"['Dragon', 'Fire']",680,Registered
+Rhyperior,306,True,"['Ground', 'Rock']",535,Registered
+Thundurus,306,True,"['Electric', 'Flying']",580,Registered
+Mewtwo,306,True,['Psychic'],680,Registered
+Crawdaunt,306,True,"['Water', 'Dark']",468,Registered
+Oranguru,306,True,"['Normal', 'Psychic']",490,Registered
+Houndoom,306,True,"['Dark', 'Fire']",500,Registered
+Meloetta,305,True,"['Normal', 'Psychic']",600,Registered
+Wo,305,True,"['Dark', 'Grass']",570,Registered
+Cetitan,305,True,['Ice'],521,Registered
+Cobalion,304,True,"['Steel', 'Fighting']",580,Registered
+Hydrapple,304,True,"['Grass', 'Dragon']",540,Registered
+Solgaleo,304,True,"['Psychic', 'Steel']",680,Registered
+Perrserker,304,True,['Steel'],440,Registered
+Latias,303,True,"['Dragon', 'Psychic']",600,Registered
+Bruxish,303,True,"['Water', 'Psychic']",475,Registered
+Urshifu,303,True,"['Fighting', 'Dark']",550,Registered
+Sudowoodo,303,True,['Rock'],410,Registered
+Regidrago,302,True,['Dragon'],580,Registered
+Kingambit,302,True,"['Dark', 'Steel']",550,Registered
+Chien,302,True,"['Dark', 'Ice']",570,Registered
+Cinderace,302,True,['Fire'],530,Registered
+Volcanion,302,True,"['Fire', 'Water']",600,Registered
+Samurott,302,True,['Water'],528,Registered
+Salamence,302,True,"['Dragon', 'Flying']",600,Registered
+Scyther,301,True,"['Bug', 'Flying']",500,Registered
+Enamorus,301,True,"['Fairy', 'Flying']",580,Registered
+Coalossal,300,True,"['Rock', 'Fire']",510,Registered
+Gallade,299,True,"['Psychic', 'Fighting']",518,Registered
+Exeggutor,299,True,"['Grass', 'Psychic']",530,Registered
+Leafeon,299,True,['Grass'],525,Registered
+Weavile,299,True,"['Dark', 'Ice']",510,Registered
+Iron Boulder,299,True,"['Rock', 'Psychic']",570,Registered
+Lurantis,299,True,['Grass'],480,Registered
+Cloyster,298,True,"['Water', 'Ice']",525,Registered
+Indeedee,298,True,"['Psychic', 'Normal']",475,Registered
+Serperior,297,True,['Grass'],528,Registered
+Magcargo,297,True,"['Fire', 'Rock']",430,Registered
+Lucario,297,True,"['Fighting', 'Steel']",525,Registered
+Iron Crown,297,True,"['Steel', 'Psychic']",570,Registered
+Zamazenta,297,True,"['Fighting', 'Steel']",670,Registered
+Flapple,297,True,"['Grass', 'Dragon']",485,Registered
+Roaring Moon,296,True,"['Dragon', 'Dark']",590,Registered
+Meowscarada,296,True,"['Grass', 'Dark']",530,Registered
+Venomoth,296,True,"['Bug', 'Poison']",450,Registered
+Passimian,295,True,['Fighting'],490,Registered
+Infernape,294,True,"['Fire', 'Fighting']",534,Registered
+Vespiquen,294,True,"['Bug', 'Flying']",474,Registered
+Baxcalibur,293,True,"['Dragon', 'Ice']",600,Registered
+Noctowl,293,True,"['Normal', 'Flying']",452,Registered
+Drednaw,293,True,"['Water', 'Rock']",485,Registered
+Crabominable,293,True,"['Fighting', 'Ice']",478,Registered
+Ludicolo,292,True,"['Water', 'Grass']",480,Registered
+Leavanny,292,True,"['Bug', 'Grass']",500,Registered
+Medicham,292,True,"['Fighting', 'Psychic']",410,Registered
+Klawf,291,True,['Rock'],450,Registered
+Revavroom,291,True,"['Steel', 'Poison']",500,Registered
+Dragonite,291,True,"['Dragon', 'Flying']",600,Registered
+Magearna,291,True,"['Steel', 'Fairy']",600,Registered
+Dipplin,290,True,"['Grass', 'Dragon']",485,Registered
+Zarude,290,True,"['Dark', 'Grass']",600,Registered
+Garchomp,290,True,"['Dragon', 'Ground']",600,Registered
+Flamigo,290,True,"['Flying', 'Fighting']",500,Registered
+Basculin,290,True,['Water'],460,Registered
+Armarouge,289,True,"['Fire', 'Psychic']",525,Registered
+Talonflame,289,True,"['Fire', 'Flying']",499,Registered
+Rhydon,289,True,"['Ground', 'Rock']",485,Registered
+Glimmora,288,True,"['Rock', 'Poison']",525,Registered
+Avalugg,287,True,['Ice'],514,Registered
+Blaziken,287,True,"['Fire', 'Fighting']",530,Registered
+Gholdengo,287,True,"['Steel', 'Ghost']",550,Registered
+Miraidon,287,True,"['Electric', 'Dragon']",670,Registered
+Breloom,287,True,"['Grass', 'Fighting']",460,Registered
+Shiftry,286,True,"['Grass', 'Dark']",480,Registered
+Iron Moth,286,True,"['Fire', 'Poison']",0,Registered
+Palkia,285,True,"['Water', 'Dragon']",680,Registered
+Quaquaval,284,True,"['Water', 'Fighting']",530,Registered
+Golem,283,True,"['Rock', 'Ground']",495,Registered
+Dodrio,283,True,"['Normal', 'Flying']",470,Registered
+Veluza,282,True,"['Water', 'Psychic']",478,Registered
+Okidogi,282,True,"['Poison', 'Fighting']",555,Registered
+Appletun,282,True,"['Grass', 'Dragon']",485,Registered
+Bastiodon,281,True,"['Rock', 'Steel']",495,Registered
+Kommo,280,True,"['Dragon', 'Fighting']",600,Registered
+Iron Leaves,279,True,"['Grass', 'Psychic']",570,Registered
+Stonjourner,279,True,['Rock'],470,Registered
+Eternatus,279,True,"['Poison', 'Dragon']",690,Registered
+Noivern,278,True,"['Flying', 'Dragon']",535,Registered
+Toedscruel,278,True,"['Ground', 'Grass']",515,Registered
+Virizion,277,True,"['Grass', 'Fighting']",580,Registered
+Minior,273,True,"['Rock', 'Flying']",440,Registered
+Iron Thorns,271,True,"['Rock', 'Electric']",0,Registered
+Vivillon,269,True,"['Bug', 'Flying']",411,Registered
+Tropius,264,True,"['Grass', 'Flying']",460,Registered
+Altaria,260,True,"['Dragon', 'Flying']",490,Registered
+Zoroark,17,True,['Dark'],510,Registered

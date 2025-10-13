@@ -377,6 +377,292 @@ POKEMON_TYPES = {
     'Terapagos': ['Normal'],
     'Pecharunt': ['Poison', 'Ghost'],
     
+    # === Pokemon completados automáticamente ===
+    # Generado: 2025-10-08 13:04:15
+    # Total: 50 Pokemon
+    'Deoxys': ['Psychic'],  # 674 apariciones
+    'Tauros': ['Normal'],  # 654 apariciones
+    'Oricorio': ['Fire', 'Flying'],  # 651 apariciones
+    'Illumise': ['Bug'],  # 408 apariciones
+    'Sableye': ['Dark', 'Ghost'],  # 405 apariciones
+    'Dunsparce': ['Normal'],  # 397 apariciones
+    'Galvantula': ['Bug', 'Electric'],  # 394 apariciones
+    'Grimmsnarl': ['Dark', 'Fairy'],  # 393 apariciones
+    'Uxie': ['Psychic'],  # 391 apariciones
+    'Phione': ['Water'],  # 390 apariciones
+    'Alomomola': ['Water'],  # 389 apariciones
+    'Volbeat': ['Bug'],  # 388 apariciones
+    'Granbull': ['Fairy'],  # 387 apariciones
+    'Lanturn': ['Water', 'Electric'],  # 386 apariciones
+    'Gastrodon': ['Water', 'Ground'],  # 385 apariciones
+    'Ariados': ['Bug', 'Poison'],  # 382 apariciones
+    'Mudsdale': ['Ground'],  # 381 apariciones
+    'Alcremie': ['Fairy'],  # 380 apariciones
+    'Chansey': ['Normal'],  # 380 apariciones
+    'Vaporeon': ['Water'],  # 380 apariciones
+    'Amoonguss': ['Grass', 'Poison'],  # 380 apariciones
+    'Hitmontop': ['Fighting'],  # 379 apariciones
+    'Milotic': ['Water'],  # 376 apariciones
+    'Persian': ['Normal'],  # 375 apariciones
+    'Blissey': ['Normal'],  # 374 apariciones
+    'Smeargle': ['Normal'],  # 373 apariciones
+    'Mienshao': ['Fighting'],  # 372 apariciones
+    'Zapdos': ['Electric', 'Flying'],  # 371 apariciones
+    'Porygon2': ['Normal'],  # 369 apariciones
+    'Scizor': ['Bug', 'Steel'],  # 369 apariciones
+    'Gurdurr': ['Fighting'],  # 368 apariciones
+    'Wyrdeer': ['Normal', 'Psychic'],  # 368 apariciones
+    'Spidops': ['Bug'],  # 367 apariciones
+    'Spectrier': ['Ghost'],  # 367 apariciones
+    'Palossand': ['Ghost', 'Ground'],  # 366 apariciones
+    'Dusknoir': ['Ghost'],  # 366 apariciones
+    'Spiritomb': ['Ghost', 'Dark'],  # 365 apariciones
+    'Suicune': ['Water'],  # 365 apariciones
+    'Vikavolt': ['Bug', 'Electric'],  # 365 apariciones
+    'Eelektross': ['Electric'],  # 365 apariciones
+    'Swalot': ['Poison'],  # 365 apariciones
+    'Mismagius': ['Ghost'],  # 364 apariciones
+    'Mesprit': ['Psychic'],  # 364 apariciones
+    'Slaking': ['Normal'],  # 364 apariciones
+    'Umbreon': ['Dark'],  # 363 apariciones
+    'Mandibuzz': ['Dark', 'Flying'],  # 363 apariciones
+    'Azumarill': ['Water', 'Fairy'],  # 363 apariciones
+    'Vileplume': ['Grass', 'Poison'],  # 362 apariciones
+    'Dedenne': ['Electric', 'Fairy'],  # 362 apariciones
+    'Electivire': ['Electric'],  # 362 apariciones
+    
+    # === Pokemon completados automáticamente (PokeAPI) ===
+    # Generado: 2025-10-13 10:13:49
+    # Total: 229 Pokemon (223 automáticos + 6 manuales)
+    'Polteageist': ['Ghost'],  # 362 apariciones
+    'Pelipper': ['Water', 'Flying'],  # 361 apariciones
+    'Gogoat': ['Grass'],  # 361 apariciones
+    'Hypno': ['Psychic'],  # 360 apariciones
+    'Kleavor': ['Bug', 'Rock'],  # 360 apariciones
+    'Pincurchin': ['Electric'],  # 359 apariciones
+    'Clefable': ['Fairy'],  # 359 apariciones
+    'Kricketune': ['Bug'],  # 358 apariciones
+    'Klefki': ['Steel', 'Fairy'],  # 357 apariciones
+    'Whimsicott': ['Grass', 'Fairy'],  # 356 apariciones
+    'Gyarados': ['Water', 'Flying'],  # 356 apariciones
+    'Arbok': ['Poison'],  # 355 apariciones
+    'Bellossom': ['Grass'],  # 355 apariciones
+    'Lumineon': ['Water'],  # 354 apariciones
+    'Golduck': ['Water'],  # 354 apariciones
+    'Araquanid': ['Water', 'Bug'],  # 354 apariciones
+    'Cryogonal': ['Ice'],  # 353 apariciones
+    'Pachirisu': ['Electric'],  # 353 apariciones
+    'Luxray': ['Electric'],  # 353 apariciones
+    'Minun': ['Electric'],  # 353 apariciones
+    'Ampharos': ['Electric'],  # 352 apariciones
+    'Wigglytuff': ['Normal', 'Fairy'],  # 352 apariciones
+    'Zebstrika': ['Electric'],  # 352 apariciones
+    'Regice': ['Ice'],  # 352 apariciones
+    'Piloswine': ['Ice', 'Ground'],  # 351 apariciones
+    'Politoed': ['Water'],  # 351 apariciones
+    'Overqwil': ['Dark', 'Poison'],  # 351 apariciones
+    'Slowking': ['Water', 'Psychic'],  # 351 apariciones
+    'Ribombee': ['Bug', 'Fairy'],  # 350 apariciones
+    'Honchkrow': ['Dark', 'Flying'],  # 350 apariciones
+    'Regigigas': ['Normal'],  # 349 apariciones
+    'Espeon': ['Psychic'],  # 349 apariciones
+    'Skarmory': ['Steel', 'Flying'],  # 349 apariciones
+    'Arcanine': ['Fire'],  # 349 apariciones
+    'Clawitzer': ['Water'],  # 349 apariciones
+    'Banette': ['Ghost'],  # 349 apariciones
+    'Magmortar': ['Fire'],  # 349 apariciones
+    'Snorlax': ['Normal'],  # 349 apariciones
+    'Florges': ['Fairy'],  # 348 apariciones
+    'Misdreavus': ['Ghost'],  # 348 apariciones
+    'Chimecho': ['Psychic'],  # 348 apariciones
+    'Gumshoos': ['Normal'],  # 347 apariciones
+    'Reuniclus': ['Psychic'],  # 346 apariciones
+    'Sandaconda': ['Ground'],  # 346 apariciones
+    'Empoleon': ['Water', 'Steel'],  # 346 apariciones
+    'Quagsire': ['Water', 'Ground'],  # 346 apariciones
+    'Carbink': ['Rock', 'Fairy'],  # 345 apariciones
+    'Ninetales': ['Fire'],  # 345 apariciones
+    'Hitmonchan': ['Fighting'],  # 345 apariciones
+    'Luvdisc': ['Water'],  # 344 apariciones
+    'Cinccino': ['Normal'],  # 344 apariciones
+    'Forretress': ['Bug', 'Steel'],  # 344 apariciones
+    'Raikou': ['Electric'],  # 343 apariciones
+    'Trevenant': ['Ghost', 'Grass'],  # 343 apariciones
+    'Abomasnow': ['Grass', 'Ice'],  # 343 apariciones
+    'Eiscue': ['Ice'],  # 342 apariciones
+    'Comfey': ['Fairy'],  # 342 apariciones
+    'Meganium': ['Grass'],  # 342 apariciones
+    'Toxtricity': ['Electric', 'Poison'],  # 342 apariciones
+    'Morpeko': ['Electric', 'Dark'],  # 342 apariciones
+    'Jumpluff': ['Grass', 'Flying'],  # 342 apariciones
+    'Articuno': ['Ice', 'Flying'],  # 341 apariciones
+    'Hippowdon': ['Ground'],  # 341 apariciones
+    'Entei': ['Fire'],  # 340 apariciones
+    'Gliscor': ['Ground', 'Flying'],  # 340 apariciones
+    'Ursaring': ['Normal'],  # 340 apariciones
+    'Gardevoir': ['Psychic', 'Fairy'],  # 339 apariciones
+    'Azelf': ['Psychic'],  # 339 apariciones
+    'Weezing': ['Poison'],  # 339 apariciones
+    'Jirachi': ['Steel', 'Psychic'],  # 338 apariciones
+    'Lilligant': ['Grass'],  # 338 apariciones
+    'Donphan': ['Ground'],  # 337 apariciones
+    'Primarina': ['Water', 'Fairy'],  # 337 apariciones
+    'Ho-Oh': ['Fire', 'Flying'],  # 337 apariciones (Ho + Ting)
+    'Greedent': ['Normal'],  # 336 apariciones
+    'Barraskewda': ['Water'],  # 336 apariciones
+    'Froslass': ['Ice', 'Ghost'],  # 335 apariciones
+    'Hatterene': ['Psychic', 'Fairy'],  # 335 apariciones
+    'Regieleki': ['Electric'],  # 334 apariciones
+    'Probopass': ['Rock', 'Steel'],  # 334 apariciones
+    'Gothitelle': ['Psychic'],  # 334 apariciones
+    'Sandslash': ['Ground'],  # 334 apariciones
+    'Lokix': ['Bug', 'Dark'],  # 334 apariciones
+    'Tsareena': ['Grass'],  # 334 apariciones
+    'Plusle': ['Electric'],  # 333 apariciones
+    'Tentacruel': ['Water', 'Poison'],  # 333 apariciones
+    'Inteleon': ['Water'],  # 333 apariciones
+    'Moltres': ['Fire', 'Flying'],  # 332 apariciones
+    'Heracross': ['Bug', 'Fighting'],  # 332 apariciones
+    'Ditto': ['Normal'],  # 332 apariciones
+    'Vigoroth': ['Normal'],  # 332 apariciones
+    'Muk': ['Poison'],  # 331 apariciones
+    'Glalie': ['Ice'],  # 331 apariciones
+    'Jolteon': ['Electric'],  # 331 apariciones
+    'Drifblim': ['Ghost', 'Flying'],  # 331 apariciones
+    'Komala': ['Normal'],  # 331 apariciones
+    'Swampert': ['Water', 'Ground'],  # 330 apariciones
+    'Falinks': ['Fighting'],  # 330 apariciones
+    'Kingdra': ['Water', 'Dragon'],  # 329 apariciones
+    'Seviper': ['Poison'],  # 329 apariciones
+    'Qwilfish': ['Water', 'Poison'],  # 329 apariciones
+    'Golurk': ['Ground', 'Ghost'],  # 329 apariciones
+    'Grumpig': ['Psychic'],  # 328 apariciones
+    'Registeel': ['Steel'],  # 328 apariciones
+    'Ambipom': ['Normal'],  # 328 apariciones
+    'Basculegion': ['Water', 'Ghost'],  # 328 apariciones
+    'Furret': ['Normal'],  # 327 apariciones
+    'Hitmonlee': ['Fighting'],  # 327 apariciones
+    'Bronzong': ['Steel', 'Psychic'],  # 327 apariciones
+    'Zangoose': ['Normal'],  # 326 apariciones
+    'Salazzle': ['Poison', 'Fire'],  # 326 apariciones
+    'Pyroar': ['Fire', 'Normal'],  # 326 apariciones
+    'Torkoal': ['Fire'],  # 325 apariciones
+    'Decidueye': ['Grass', 'Ghost'],  # 325 apariciones
+    'Corviknight': ['Flying', 'Steel'],  # 325 apariciones
+    'Dragalge': ['Poison', 'Dragon'],  # 325 apariciones
+    'Meowstic': ['Psychic'],  # 325 apariciones
+    'Toxicroak': ['Poison', 'Fighting'],  # 324 apariciones
+    'Mightyena': ['Dark'],  # 324 apariciones
+    'Hawlucha': ['Fighting', 'Flying'],  # 323 apariciones
+    'Mamoswine': ['Ice', 'Ground'],  # 323 apariciones
+    'Sunflora': ['Grass'],  # 323 apariciones
+    'Poliwrath': ['Water', 'Fighting'],  # 323 apariciones
+    'Masquerain': ['Bug', 'Flying'],  # 322 apariciones
+    'Incineroar': ['Fire', 'Dark'],  # 322 apariciones
+    'Glastrier': ['Ice'],  # 322 apariciones
+    'Beartic': ['Ice'],  # 322 apariciones
+    'Flygon': ['Ground', 'Dragon'],  # 321 apariciones
+    'Delibird': ['Ice', 'Flying'],  # 321 apariciones
+    'Duraludon': ['Steel', 'Dragon'],  # 321 apariciones
+    'Krookodile': ['Ground', 'Dark'],  # 321 apariciones
+    'Cacturne': ['Grass', 'Dark'],  # 321 apariciones
+    'Hariyama': ['Fighting'],  # 321 apariciones
+    'Staraptor': ['Normal', 'Flying'],  # 321 apariciones
+    'Malamar': ['Dark', 'Psychic'],  # 320 apariciones
+    'Ursaluna': ['Ground', 'Normal'],  # 320 apariciones
+    'Chesnaught': ['Grass', 'Fighting'],  # 320 apariciones
+    'Whiscash': ['Water', 'Ground'],  # 320 apariciones
+    'Feraligatr': ['Water'],  # 319 apariciones
+    'Skuntank': ['Poison', 'Dark'],  # 319 apariciones
+    'Delphox': ['Fire', 'Psychic'],  # 318 apariciones
+    'Lycanroc': ['Rock'],  # 318 apariciones
+    'Scrafty': ['Dark', 'Fighting'],  # 318 apariciones
+    'Girafarig': ['Normal', 'Psychic'],  # 318 apariciones
+    'Braviary': ['Normal', 'Flying'],  # 317 apariciones
+    'Lapras': ['Water', 'Ice'],  # 317 apariciones
+    'Yanmega': ['Bug', 'Flying'],  # 316 apariciones
+    'Sawsbuck': ['Normal', 'Grass'],  # 316 apariciones
+    'Glaceon': ['Ice'],  # 315 apariciones
+    'Dewgong': ['Water', 'Ice'],  # 315 apariciones
+    'Chi-Yu': ['Dark', 'Fire'],  # 315 apariciones (Chi)
+    'Emboar': ['Fire', 'Fighting'],  # 315 apariciones
+    'Dugtrio': ['Ground'],  # 314 apariciones
+    'Swanna': ['Water', 'Flying'],  # 314 apariciones
+    'Torterra': ['Grass', 'Ground'],  # 314 apariciones
+    'Typhlosion': ['Fire'],  # 313 apariciones
+    'Copperajah': ['Steel'],  # 313 apariciones
+    'Rillaboom': ['Grass'],  # 313 apariciones
+    'Sneasler': ['Fighting', 'Poison'],  # 312 apariciones
+    'Camerupt': ['Fire', 'Ground'],  # 312 apariciones
+    'Rampardos': ['Rock'],  # 312 apariciones
+    'Cramorant': ['Flying', 'Water'],  # 311 apariciones
+    'Electrode': ['Electric'],  # 311 apariciones
+    'Regirock': ['Rock'],  # 310 apariciones
+    'Victreebel': ['Grass', 'Poison'],  # 309 apariciones
+    'Sceptile': ['Grass'],  # 308 apariciones
+    'Flareon': ['Fire'],  # 308 apariciones
+    'Porygon': ['Normal'],  # 308 apariciones
+    'Terrakion': ['Rock', 'Fighting'],  # 308 apariciones
+    'Toucannon': ['Normal', 'Flying'],  # 307 apariciones
+    'Floatzel': ['Water'],  # 307 apariciones
+    'Frosmoth': ['Ice', 'Bug'],  # 307 apariciones
+    'Rhyperior': ['Ground', 'Rock'],  # 306 apariciones
+    'Crawdaunt': ['Water', 'Dark'],  # 306 apariciones
+    'Oranguru': ['Normal', 'Psychic'],  # 306 apariciones
+    'Houndoom': ['Dark', 'Fire'],  # 306 apariciones
+    'Meloetta': ['Normal', 'Psychic'],  # 305 apariciones
+    'Wo-Chien': ['Dark', 'Grass'],  # 305 apariciones (Wo)
+    'Cobalion': ['Steel', 'Fighting'],  # 304 apariciones
+    'Perrserker': ['Steel'],  # 304 apariciones
+    'Bruxish': ['Water', 'Psychic'],  # 303 apariciones
+    'Sudowoodo': ['Rock'],  # 303 apariciones
+    'Regidrago': ['Dragon'],  # 302 apariciones
+    'Chien-Pao': ['Dark', 'Ice'],  # 302 apariciones (Chien)
+    'Cinderace': ['Fire'],  # 302 apariciones
+    'Samurott': ['Water'],  # 302 apariciones
+    'Scyther': ['Bug', 'Flying'],  # 301 apariciones
+    'Coalossal': ['Rock', 'Fire'],  # 300 apariciones
+    'Gallade': ['Psychic', 'Fighting'],  # 299 apariciones
+    'Exeggutor': ['Grass', 'Psychic'],  # 299 apariciones
+    'Leafeon': ['Grass'],  # 299 apariciones
+    'Weavile': ['Dark', 'Ice'],  # 299 apariciones
+    'Lurantis': ['Grass'],  # 299 apariciones
+    'Cloyster': ['Water', 'Ice'],  # 298 apariciones
+    'Indeedee': ['Psychic', 'Normal'],  # 298 apariciones
+    'Serperior': ['Grass'],  # 297 apariciones
+    'Magcargo': ['Fire', 'Rock'],  # 297 apariciones
+    'Flapple': ['Grass', 'Dragon'],  # 297 apariciones
+    'Venomoth': ['Bug', 'Poison'],  # 296 apariciones
+    'Passimian': ['Fighting'],  # 295 apariciones
+    'Infernape': ['Fire', 'Fighting'],  # 294 apariciones
+    'Vespiquen': ['Bug', 'Flying'],  # 294 apariciones
+    'Noctowl': ['Normal', 'Flying'],  # 293 apariciones
+    'Drednaw': ['Water', 'Rock'],  # 293 apariciones
+    'Crabominable': ['Fighting', 'Ice'],  # 293 apariciones
+    'Ludicolo': ['Water', 'Grass'],  # 292 apariciones
+    'Leavanny': ['Bug', 'Grass'],  # 292 apariciones
+    'Medicham': ['Fighting', 'Psychic'],  # 292 apariciones
+    'Dipplin': ['Grass', 'Dragon'],  # 290 apariciones
+    'Zarude': ['Dark', 'Grass'],  # 290 apariciones
+    'Basculin': ['Water'],  # 290 apariciones
+    'Rhydon': ['Ground', 'Rock'],  # 289 apariciones
+    'Avalugg': ['Ice'],  # 287 apariciones
+    'Blaziken': ['Fire', 'Fighting'],  # 287 apariciones
+    'Breloom': ['Grass', 'Fighting'],  # 287 apariciones
+    'Shiftry': ['Grass', 'Dark'],  # 286 apariciones
+    'Dodrio': ['Normal', 'Flying'],  # 283 apariciones
+    'Appletun': ['Grass', 'Dragon'],  # 282 apariciones
+    'Bastiodon': ['Rock', 'Steel'],  # 281 apariciones
+    'Kommo-o': ['Dragon', 'Fighting'],  # 280 apariciones (Kommo)
+    'Stonjourner': ['Rock'],  # 279 apariciones
+    'Noivern': ['Flying', 'Dragon'],  # 278 apariciones
+    'Virizion': ['Grass', 'Fighting'],  # 277 apariciones
+    'Minior': ['Rock', 'Flying'],  # 273 apariciones
+    'Vivillon': ['Bug', 'Flying'],  # 269 apariciones
+    'Tropius': ['Grass', 'Flying'],  # 264 apariciones
+    'Altaria': ['Dragon', 'Flying'],  # 260 apariciones
+    'Zoroark': ['Dark'],  # 17 apariciones
+    
     # Formas alternativas importantes
     'Rotom-Wash': ['Electric', 'Water'],
     'Rotom-Heat': ['Electric', 'Fire'],
@@ -393,6 +679,14 @@ POKEMON_TYPES = {
     'Ogerpon-Wellspring': ['Grass', 'Water'],
     'Ogerpon-Hearthflame': ['Grass', 'Fire'],
     'Ogerpon-Cornerstone': ['Grass', 'Rock'],
+    
+    # Aliases para nombres truncados en dataset
+    'Ho': ['Fire', 'Flying'],  # Ho-Oh truncado
+    'Ting': ['Fire', 'Flying'],  # Parte de "Ho-Oh" (Ho + Ting)
+    'Chi': ['Dark', 'Fire'],  # Chi-Yu truncado
+    'Wo': ['Dark', 'Grass'],  # Wo-Chien truncado
+    'Chien': ['Dark', 'Ice'],  # Chien-Pao truncado
+    'Kommo': ['Dragon', 'Fighting'],  # Kommo-o truncado
 }
 
 # Base Stat Totals (BST) - Suma de HP + Atk + Def + SpA + SpD + Spe
@@ -550,6 +844,59 @@ POKEMON_BST = {
     'Terapagos': 600,
     'Pecharunt': 600,
     
+    # === BST de Pokemon completados ===
+    # Generado: 2025-10-08 13:04:15
+    'Deoxys': 600,
+    'Tauros': 490,
+    'Oricorio': 476,
+    'Illumise': 430,
+    'Sableye': 380,
+    'Dunsparce': 415,
+    'Galvantula': 472,
+    'Grimmsnarl': 510,
+    'Uxie': 580,
+    'Phione': 480,
+    'Alomomola': 470,
+    'Volbeat': 430,
+    'Granbull': 450,
+    'Lanturn': 460,
+    'Gastrodon': 475,
+    'Ariados': 400,
+    'Mudsdale': 500,
+    'Alcremie': 495,
+    'Chansey': 450,
+    'Vaporeon': 525,
+    'Amoonguss': 464,
+    'Hitmontop': 455,
+    'Milotic': 540,
+    'Persian': 440,
+    'Blissey': 540,
+    'Smeargle': 250,
+    'Mienshao': 510,
+    'Zapdos': 580,
+    'Porygon2': 515,
+    'Scizor': 500,
+    'Gurdurr': 405,
+    'Wyrdeer': 525,
+    'Spidops': 404,
+    'Spectrier': 580,
+    'Palossand': 480,
+    'Dusknoir': 525,
+    'Spiritomb': 485,
+    'Suicune': 580,
+    'Vikavolt': 500,
+    'Eelektross': 515,
+    'Swalot': 467,
+    'Mismagius': 495,
+    'Mesprit': 580,
+    'Slaking': 670,
+    'Umbreon': 525,
+    'Mandibuzz': 510,
+    'Azumarill': 420,
+    'Vileplume': 490,
+    'Dedenne': 431,
+    'Electivire': 540,
+    
     # Pokemon comunes (300-450)
     'Pikachu': 320,
     'Raichu': 485,
@@ -591,6 +938,237 @@ POKEMON_BST = {
     'Arctibax': 423,
     'Poltchageist': 308,
     
+    # === BST de Pokemon completados (PokeAPI) ===
+    # Generado: 2025-10-13 10:13:49
+    'Polteageist': 508,
+    'Pelipper': 440,
+    'Gogoat': 531,
+    'Hypno': 483,
+    'Kleavor': 500,
+    'Pincurchin': 435,
+    'Clefable': 483,
+    'Kricketune': 384,
+    'Klefki': 470,
+    'Whimsicott': 480,
+    'Gyarados': 540,
+    'Arbok': 448,
+    'Bellossom': 490,
+    'Lumineon': 460,
+    'Golduck': 500,
+    'Araquanid': 454,
+    'Cryogonal': 515,
+    'Pachirisu': 405,
+    'Luxray': 523,
+    'Minun': 405,
+    'Ampharos': 510,
+    'Wigglytuff': 435,
+    'Zebstrika': 497,
+    'Regice': 580,
+    'Piloswine': 450,
+    'Politoed': 500,
+    'Overqwil': 510,
+    'Slowking': 490,
+    'Ribombee': 464,
+    'Honchkrow': 505,
+    'Regigigas': 670,
+    'Espeon': 525,
+    'Skarmory': 465,
+    'Arcanine': 555,
+    'Clawitzer': 500,
+    'Banette': 455,
+    'Magmortar': 540,
+    'Snorlax': 540,
+    'Florges': 552,
+    'Misdreavus': 435,
+    'Chimecho': 455,
+    'Gumshoos': 418,
+    'Reuniclus': 490,
+    'Sandaconda': 510,
+    'Empoleon': 530,
+    'Quagsire': 430,
+    'Carbink': 500,
+    'Ninetales': 505,
+    'Hitmonchan': 455,
+    'Luvdisc': 330,
+    'Cinccino': 470,
+    'Forretress': 465,
+    'Raikou': 580,
+    'Trevenant': 474,
+    'Abomasnow': 494,
+    'Eiscue': 470,
+    'Comfey': 485,
+    'Meganium': 525,
+    'Toxtricity': 502,
+    'Morpeko': 436,
+    'Jumpluff': 460,
+    'Articuno': 580,
+    'Hippowdon': 525,
+    'Entei': 580,
+    'Gliscor': 510,
+    'Ursaring': 500,
+    'Gardevoir': 518,
+    'Azelf': 580,
+    'Weezing': 490,
+    'Jirachi': 600,
+    'Lilligant': 480,
+    'Donphan': 500,
+    'Primarina': 530,
+    'Ho-Oh': 680,
+    'Greedent': 460,
+    'Barraskewda': 490,
+    'Froslass': 480,
+    'Hatterene': 510,
+    'Regieleki': 580,
+    'Probopass': 525,
+    'Gothitelle': 490,
+    'Sandslash': 450,
+    'Lokix': 450,
+    'Tsareena': 510,
+    'Plusle': 405,
+    'Tentacruel': 515,
+    'Inteleon': 530,
+    'Moltres': 580,
+    'Heracross': 500,
+    'Ditto': 288,
+    'Vigoroth': 440,
+    'Muk': 500,
+    'Glalie': 480,
+    'Jolteon': 525,
+    'Drifblim': 498,
+    'Komala': 480,
+    'Swampert': 535,
+    'Falinks': 470,
+    'Kingdra': 540,
+    'Seviper': 458,
+    'Qwilfish': 440,
+    'Golurk': 483,
+    'Grumpig': 470,
+    'Registeel': 580,
+    'Ambipom': 482,
+    'Basculegion': 530,
+    'Furret': 415,
+    'Hitmonlee': 455,
+    'Bronzong': 500,
+    'Zangoose': 458,
+    'Salazzle': 480,
+    'Pyroar': 507,
+    'Torkoal': 470,
+    'Decidueye': 530,
+    'Corviknight': 495,
+    'Dragalge': 494,
+    'Meowstic': 466,
+    'Toxicroak': 490,
+    'Mightyena': 420,
+    'Hawlucha': 500,
+    'Mamoswine': 530,
+    'Sunflora': 425,
+    'Poliwrath': 510,
+    'Masquerain': 454,
+    'Incineroar': 530,
+    'Glastrier': 580,
+    'Beartic': 505,
+    'Flygon': 520,
+    'Delibird': 330,
+    'Duraludon': 535,
+    'Krookodile': 519,
+    'Cacturne': 475,
+    'Hariyama': 474,
+    'Staraptor': 485,
+    'Malamar': 482,
+    'Ursaluna': 550,
+    'Chesnaught': 530,
+    'Whiscash': 468,
+    'Feraligatr': 530,
+    'Skuntank': 479,
+    'Delphox': 534,
+    'Lycanroc': 487,
+    'Scrafty': 488,
+    'Girafarig': 455,
+    'Braviary': 510,
+    'Lapras': 535,
+    'Yanmega': 515,
+    'Sawsbuck': 475,
+    'Glaceon': 525,
+    'Dewgong': 475,
+    'Chi-Yu': 570,
+    'Emboar': 528,
+    'Dugtrio': 425,
+    'Swanna': 473,
+    'Torterra': 525,
+    'Typhlosion': 534,
+    'Copperajah': 500,
+    'Rillaboom': 530,
+    'Sneasler': 510,
+    'Camerupt': 460,
+    'Rampardos': 495,
+    'Cramorant': 475,
+    'Electrode': 490,
+    'Regirock': 580,
+    'Victreebel': 490,
+    'Sceptile': 530,
+    'Flareon': 525,
+    'Porygon': 395,
+    'Terrakion': 580,
+    'Toucannon': 485,
+    'Floatzel': 495,
+    'Frosmoth': 475,
+    'Rhyperior': 535,
+    'Crawdaunt': 468,
+    'Oranguru': 490,
+    'Houndoom': 500,
+    'Meloetta': 600,
+    'Wo-Chien': 570,
+    'Cobalion': 580,
+    'Perrserker': 440,
+    'Bruxish': 475,
+    'Sudowoodo': 410,
+    'Regidrago': 580,
+    'Chien-Pao': 570,
+    'Cinderace': 530,
+    'Samurott': 528,
+    'Scyther': 500,
+    'Coalossal': 510,
+    'Gallade': 518,
+    'Exeggutor': 530,
+    'Leafeon': 525,
+    'Weavile': 510,
+    'Lurantis': 480,
+    'Cloyster': 525,
+    'Indeedee': 475,
+    'Serperior': 528,
+    'Magcargo': 430,
+    'Flapple': 485,
+    'Venomoth': 450,
+    'Passimian': 490,
+    'Infernape': 534,
+    'Vespiquen': 474,
+    'Noctowl': 452,
+    'Drednaw': 485,
+    'Crabominable': 478,
+    'Ludicolo': 480,
+    'Leavanny': 500,
+    'Medicham': 410,
+    'Dipplin': 485,
+    'Zarude': 600,
+    'Basculin': 460,
+    'Rhydon': 485,
+    'Avalugg': 514,
+    'Blaziken': 530,
+    'Breloom': 460,
+    'Shiftry': 480,
+    'Dodrio': 470,
+    'Appletun': 485,
+    'Bastiodon': 495,
+    'Kommo-o': 600,
+    'Stonjourner': 470,
+    'Noivern': 535,
+    'Virizion': 580,
+    'Minior': 440,
+    'Vivillon': 411,
+    'Tropius': 460,
+    'Altaria': 490,
+    'Zoroark': 510,
+    
     # Formas alternativas
     'Rotom-Wash': 520,
     'Rotom-Heat': 520,
@@ -607,6 +1185,14 @@ POKEMON_BST = {
     'Ogerpon-Wellspring': 550,
     'Ogerpon-Hearthflame': 550,
     'Ogerpon-Cornerstone': 550,
+    
+    # Aliases para nombres truncados en dataset
+    'Ho': 680,  # Ho-Oh truncado
+    'Ting': 680,  # Parte de "Ho-Oh"
+    'Chi': 570,  # Chi-Yu truncado
+    'Wo': 570,  # Wo-Chien truncado
+    'Chien': 570,  # Chien-Pao truncado
+    'Kommo': 600,  # Kommo-o truncado
 }
 
 # Tiers competitivos (Smogon)
