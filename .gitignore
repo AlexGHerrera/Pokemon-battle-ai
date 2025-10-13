@@ -48,6 +48,9 @@ coverage.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Jupytext - archivos .py de notebooks (solo .ipynb en repo)
+notebooks/**/*.py
+
 # IPython
 profile_default/
 ipython_config.py
